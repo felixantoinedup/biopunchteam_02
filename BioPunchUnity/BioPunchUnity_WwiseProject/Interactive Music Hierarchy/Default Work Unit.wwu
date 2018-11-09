@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CBCC3F8E-82B8-4D63-BB68-95F5678A9789}" SchemaVersion="89">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{CBCC3F8E-82B8-4D63-BB68-95F5678A9789}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Music" ID="{89ADC627-778A-462A-B364-C526554EFA1D}" ShortID="924907528">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="MUS_Blend-In_Funk" ID="{C6E5AA13-04EB-4895-BE2E-951826377F3B}" ShortID="452540911">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="221538.458049887"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="MUS_Blend-In_Funk" ID="{453E026B-6995-4B41-8EFE-BF86F9BFD896}" ShortID="490014900">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MUS_Blend-In_Funk" ID="{3130BEDB-A77F-4F9B-8666-FAA46A18A969}" ShortID="18710268">
+											<Language>SFX</Language>
+											<AudioFile>MUS_Blend-In_Funk.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{030B14F3-BCBF-41DA-930B-D4D90BE0C67C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{81B05062-2FFA-4CFA-9C9A-E5DB128BD415}">
+											<ClipList>
+												<MusicClip Name="MUS_Blend-In_Funk" ID="{FD6F2359-7B45-4A11-9563-AEDDD98F28B1}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="221538.458049887"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="MUS_Blend-In_Funk" ID="{3130BEDB-A77F-4F9B-8666-FAA46A18A969}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{8C8325F7-8146-473D-9359-D674DCBB1306}"/>
+								<MusicCue Name="Exit Cue" ID="{CF4D2DFC-F8A2-40B0-8228-88AA4DCD8752}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="221538.458049887"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{A16EA17A-8286-4047-8587-EB9976CB298C}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{6CA3AECC-9C23-41AB-BE63-8B0D3AC1544B}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{515DA832-C16F-4EF3-BC96-CB1D95FB5F8A}" ShortID="26963965">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{ACE6BCE7-E638-4AEB-A1B3-C9E95151F945}" ShortID="915717420">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="MUS_Blend-In_Funk" ID="{C6E5AA13-04EB-4895-BE2E-951826377F3B}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

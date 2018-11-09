@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music" ID="{92114815-C175-4068-9073-76AB4BBD8EE8}">
+					<ChildrenList>
+						<Action Name="" ID="{7944B246-BDF4-4595-8BDC-F14A33BC5B3B}" ShortID="730301697">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{89ADC627-778A-462A-B364-C526554EFA1D}" WorkUnitID="{CBCC3F8E-82B8-4D63-BB68-95F5678A9789}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{6E24B484-3B71-4175-B87B-884708DF51A1}">
+					<ChildrenList>
+						<Action Name="" ID="{40B22E01-860C-4553-BE26-0B4F531A0D4C}" ShortID="52019566">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Footsteps_Chameleon" ID="{7085D7E4-41C1-423A-856A-E24E35DC9813}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ColourShift" ID="{B1DEE17B-45EA-4A98-B6EA-83332EBAA579}">
+					<ChildrenList>
+						<Action Name="" ID="{00A0E8A0-87CC-4327-A1BE-2550CD681AF6}" ShortID="840568341">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_ColourShift_Chameleon" ID="{FD08B814-A6A0-4F52-9C1D-A4BCDA633F64}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

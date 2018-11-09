@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="SFX_Footsteps_Chameleon" ID="{7085D7E4-41C1-423A-856A-E24E35DC9813}" ShortID="783516858">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FS_Chameleons_Walking01" ID="{370631F1-ACFA-4DEA-AC5B-D06E1C8B8ADF}" ShortID="103165217">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking01" ID="{479495AA-808B-43BB-926D-588676DEB9F9}" ShortID="699905247">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking01" ID="{479495AA-808B-43BB-926D-588676DEB9F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Chameleons_Walking02" ID="{56FCB315-FF20-4C7D-A48C-2653E1601E78}" ShortID="849196364">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking02" ID="{CF763509-A0BF-41D6-B208-4306E467A4D7}" ShortID="78156934">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking02" ID="{CF763509-A0BF-41D6-B208-4306E467A4D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Chameleons_Walking03" ID="{6BD8FA45-492C-4AB0-9B82-B76FEDCCD175}" ShortID="971598114">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking03" ID="{8F6DEF62-71C7-4045-A7FC-BCAE7B89FF80}" ShortID="93159753">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking03" ID="{8F6DEF62-71C7-4045-A7FC-BCAE7B89FF80}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Chameleons_Walking06" ID="{4CBEBE02-20D0-478F-89A2-5C2736435486}" ShortID="814932101">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking06" ID="{908C7881-73FE-4731-AF8E-7DABE11A6C0D}" ShortID="1044458939">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking06.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking06" ID="{908C7881-73FE-4731-AF8E-7DABE11A6C0D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Chameleons_Walking04" ID="{69017EE7-A94B-4C5A-8801-5E500894A6AB}" ShortID="798227189">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking04" ID="{2DE63F1D-DBC4-43D2-B61A-28DA5957CD07}" ShortID="681007080">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking04" ID="{2DE63F1D-DBC4-43D2-B61A-28DA5957CD07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Chameleons_Walking07" ID="{835FC380-41B3-4651-90A9-70489467BAC3}" ShortID="418869929">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking07" ID="{634D0A02-BB61-4AAB-81DC-CAB403B95A18}" ShortID="265921921">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking07.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking07" ID="{634D0A02-BB61-4AAB-81DC-CAB403B95A18}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Chameleons_Walking08" ID="{705AE255-6C3C-486D-999C-7AC13DCFA50F}" ShortID="99694983">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking08" ID="{87E1F6E0-4146-45B5-9F23-D1BF98CFEFC0}" ShortID="51696946">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking08.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking08" ID="{87E1F6E0-4146-45B5-9F23-D1BF98CFEFC0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Chameleons_Walking05" ID="{92931C7C-3690-4A0D-A503-14F118B6B450}" ShortID="710680826">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking05" ID="{93D6C2E0-651F-4E81-8B32-4D1CD31B6969}" ShortID="335452880">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking05" ID="{93D6C2E0-651F-4E81-8B32-4D1CD31B6969}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Chameleons_Walking09" ID="{76963B1C-8298-4E7E-BD9E-A2030DD402D1}" ShortID="617649482">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking09" ID="{137652AA-E6F9-4442-BE33-5E5D1376E4A9}" ShortID="791359897">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking09.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking09" ID="{137652AA-E6F9-4442-BE33-5E5D1376E4A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="FS_Chameleons_Walking10" ID="{4AC9BFD4-AB88-41AE-9C94-DE20744AB824}" ShortID="813178757">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Chameleons_Walking10" ID="{87BA5DD3-5F65-4359-BC37-D7D35CCF8B73}" ShortID="103503168">
+									<Language>SFX</Language>
+									<AudioFile>FS_Chameleons_Walking10.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Chameleons_Walking10" ID="{87BA5DD3-5F65-4359-BC37-D7D35CCF8B73}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="AMB_NPC_Accept01" ID="{EB618450-8114-480A-B11B-293F7AA8D25B}" ShortID="891876584">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_NPC_Accept01" ID="{9A9A5327-14F9-41F5-B333-8B1302926148}" ShortID="1035627652">
+							<Language>SFX</Language>
+							<AudioFile>AMB_NPC_Accept01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_NPC_Accept01" ID="{9A9A5327-14F9-41F5-B333-8B1302926148}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMB_NPC_Accept02" ID="{13578B01-B461-4FA4-A912-1265AF3E3029}" ShortID="162930697">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_NPC_Accept02" ID="{01659F49-9FBF-4C2E-83E7-EC024D387D3A}" ShortID="758032101">
+							<Language>SFX</Language>
+							<AudioFile>AMB_NPC_Accept02.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_NPC_Accept02" ID="{01659F49-9FBF-4C2E-83E7-EC024D387D3A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMB_NPC_Mumble" ID="{F1CD4E19-C9BD-456E-B655-FD41877F8C88}" ShortID="835044545">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_NPC_Mumble" ID="{D0F1DC2E-8017-4456-B913-EB3C1C500EA9}" ShortID="50455860">
+							<Language>SFX</Language>
+							<AudioFile>AMB_NPC_Mumble.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_NPC_Mumble" ID="{D0F1DC2E-8017-4456-B913-EB3C1C500EA9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMB_NPC_Negate01" ID="{0C0371FB-36D3-47BB-AB12-854AB2EF606B}" ShortID="175593488">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_NPC_Negate01" ID="{B2564F2E-F7F4-4459-9B81-B4B2C0DFB49A}" ShortID="424028071">
+							<Language>SFX</Language>
+							<AudioFile>AMB_NPC_Negate01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_NPC_Negate01" ID="{B2564F2E-F7F4-4459-9B81-B4B2C0DFB49A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMB_NPC_Negate02" ID="{4D3AD087-9997-4264-9268-AA4AA9F2C967}" ShortID="714920229">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_NPC_Negate02" ID="{632AFCFD-DCC2-45F8-99B2-07EFB18EACE3}" ShortID="701284468">
+							<Language>SFX</Language>
+							<AudioFile>AMB_NPC_Negate02.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_NPC_Negate02" ID="{632AFCFD-DCC2-45F8-99B2-07EFB18EACE3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Emoji_Pop01" ID="{06EBAD4C-9815-4916-B054-D81CBADE8C8C}" ShortID="417799930">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Emoji_Pop01" ID="{B27533FF-E515-4C8F-A3C0-23C71D4DB512}" ShortID="131592292">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Emoji_Pop01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Emoji_Pop01" ID="{B27533FF-E515-4C8F-A3C0-23C71D4DB512}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Emoji_Pop02" ID="{98ACE6B4-AFED-40CD-ACDC-F8FE9B185B9A}" ShortID="1006855416">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Emoji_Pop02" ID="{6913178C-9DDD-4DC6-8808-A6615E911BC0}" ShortID="755222402">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Emoji_Pop02.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Emoji_Pop02" ID="{6913178C-9DDD-4DC6-8808-A6615E911BC0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Emoji_Pop03" ID="{A1AF191A-A330-4A9F-A0EC-54F8C29D81A8}" ShortID="778235559">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Emoji_Pop03" ID="{C47B8932-0BD8-4191-A366-C8D1962DA54C}" ShortID="293927906">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Emoji_Pop03.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Emoji_Pop03" ID="{C47B8932-0BD8-4191-A366-C8D1962DA54C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Chameleons_DabHits" ID="{B9B9E62C-C5AE-4BAC-9AB0-F53E17FCA6B0}" ShortID="539843361">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Chameleons_DabHits" ID="{3D1C71D7-8337-4775-91C3-1678A068DDC6}" ShortID="492055431">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Chameleons_DabHits.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Chameleons_DabHits" ID="{3D1C71D7-8337-4775-91C3-1678A068DDC6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="SFX_ColourShift_Chameleon" ID="{FD08B814-A6A0-4F52-9C1D-A4BCDA633F64}" ShortID="912976931">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Chameleon_ColorShift01" ID="{5D00B585-5048-4A9D-8BE2-60CF4AD4080C}" ShortID="136460630">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Chameleon_ColorShift01" ID="{E4B248A4-0C6E-498F-8FF6-075306112F0F}" ShortID="514647141">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Chameleon_ColorShift01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Chameleon_ColorShift01" ID="{E4B248A4-0C6E-498F-8FF6-075306112F0F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Chameleon_ColorShift03" ID="{B2D20B3E-DFC9-47BD-8E94-7EC70895BFD8}" ShortID="506559310">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Chameleon_ColorShift03" ID="{F0F2D8DE-6D80-41AB-98B4-6D41D461B6EF}" ShortID="224997968">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Chameleon_ColorShift03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Chameleon_ColorShift03" ID="{F0F2D8DE-6D80-41AB-98B4-6D41D461B6EF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Chameleon_ColorShift05" ID="{A07E7D26-6CB1-4F49-BDC6-D1229AC42929}" ShortID="324856960">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Chameleon_ColorShift05" ID="{8B51E10C-F2CA-4092-9C40-81B79EBA0943}" ShortID="152352232">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Chameleon_ColorShift05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Chameleon_ColorShift05" ID="{8B51E10C-F2CA-4092-9C40-81B79EBA0943}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Chameleon_ColorShift06" ID="{104BCA87-1AA4-4FFB-8920-6778FE0E7B9C}" ShortID="787515677">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Chameleon_ColorShift06" ID="{431E1F01-3513-4B55-88FF-14A38A447C62}" ShortID="150776606">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Chameleon_ColorShift06.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Chameleon_ColorShift06" ID="{431E1F01-3513-4B55-88FF-14A38A447C62}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Chameleon_ColorShift08" ID="{7153E508-9BF7-4C53-B8BB-24210B9E1ADA}" ShortID="615527961">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Chameleon_ColorShift08" ID="{B45A3685-BEAA-43E8-8E07-3AC12C70D185}" ShortID="742745470">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Chameleon_ColorShift08.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Chameleon_ColorShift08" ID="{B45A3685-BEAA-43E8-8E07-3AC12C70D185}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Chameleon_ColorShift02" ID="{F14A32CE-0D4D-4A67-A801-EF7F873C941E}" ShortID="276480461">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Chameleon_ColorShift02" ID="{5A955AD0-FC2A-41AE-81CD-D54FC779B1BB}" ShortID="910865387">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Chameleon_ColorShift02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Chameleon_ColorShift02" ID="{5A955AD0-FC2A-41AE-81CD-D54FC779B1BB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Chameleon_ColorShift07" ID="{306F6805-9A0F-4D35-A7DF-491056466E3C}" ShortID="408807048">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Chameleon_ColorShift07" ID="{6C7914D9-3555-44D4-82A4-2198B48EB036}" ShortID="4122415">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Chameleon_ColorShift07.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Chameleon_ColorShift07" ID="{6C7914D9-3555-44D4-82A4-2198B48EB036}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Chameleon_ColorShift04" ID="{2ADB4FAA-3DD6-4DA6-893F-5D6DDB163D49}" ShortID="868246948">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7858D7F7-3D76-40D8-B235-09F8DC66952F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6A44E917-0353-4CDB-895C-DD517CDD1A38}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Chameleon_ColorShift04" ID="{0C698B00-A8FA-4EE1-B743-60D8BCDE77D6}" ShortID="693074478">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Chameleon_ColorShift04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Chameleon_ColorShift04" ID="{0C698B00-A8FA-4EE1-B743-60D8BCDE77D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

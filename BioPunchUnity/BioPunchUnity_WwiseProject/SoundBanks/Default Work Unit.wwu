@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A9E9C4F3-29B5-4271-9D46-557052239A88}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A9E9C4F3-29B5-4271-9D46-557052239A88}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="BioPunchUnity" ID="{7C050B7F-51EC-404C-9305-24DFEC2A9AA3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{92114815-C175-4068-9073-76AB4BBD8EE8}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Emoji_Pop02" ID="{98ACE6B4-AFED-40CD-ACDC-F8FE9B185B9A}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps" ID="{6E24B484-3B71-4175-B87B-884708DF51A1}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AMB_NPC_Negate02" ID="{4D3AD087-9997-4264-9268-AA4AA9F2C967}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AMB_NPC_Mumble" ID="{F1CD4E19-C9BD-456E-B655-FD41877F8C88}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AMB_NPC_Negate01" ID="{0C0371FB-36D3-47BB-AB12-854AB2EF606B}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AMB_NPC_Accept01" ID="{EB618450-8114-480A-B11B-293F7AA8D25B}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Emoji_Pop01" ID="{06EBAD4C-9815-4916-B054-D81CBADE8C8C}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ColourShift" ID="{B1DEE17B-45EA-4A98-B6EA-83332EBAA579}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Emoji_Pop03" ID="{A1AF191A-A330-4A9F-A0EC-54F8C29D81A8}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SFX_Chameleons_DabHits" ID="{B9B9E62C-C5AE-4BAC-9AB0-F53E17FCA6B0}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AMB_NPC_Accept02" ID="{13578B01-B461-4FA4-A912-1265AF3E3029}" WorkUnitID="{A162ED7D-5C8F-47C8-BCAD-B738DFA5FB7E}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

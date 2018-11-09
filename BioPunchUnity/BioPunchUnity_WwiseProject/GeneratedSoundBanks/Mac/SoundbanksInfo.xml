@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3035725890" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\BioPunchUnity</ObjectPath>
+			<ShortName>BioPunchUnity</ShortName>
+			<Path>BioPunchUnity.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3228142023" Name="ColourShift" ObjectPath="\Events\Default Work Unit\ColourShift"/>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="4122415" Language="SFX">
+					<ShortName>SFX_Chameleon_ColorShift07.wav</ShortName>
+					<Path>SFX\SFX_Chameleon_ColorShift07_56D34C19.wem</Path>
+				</File>
+				<File Id="18710268" Language="SFX">
+					<ShortName>MUS_Blend-In_Funk.wav</ShortName>
+					<Path>SFX\MUS_Blend-In_Funk_8956FC97.wem</Path>
+				</File>
+				<File Id="50455860" Language="SFX">
+					<ShortName>AMB_NPC_Mumble.wav</ShortName>
+					<Path>SFX\AMB_NPC_Mumble_8956FC97.wem</Path>
+				</File>
+				<File Id="51696946" Language="SFX">
+					<ShortName>FS_Chameleons_Walking08.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking08_56D34C19.wem</Path>
+				</File>
+				<File Id="78156934" Language="SFX">
+					<ShortName>FS_Chameleons_Walking02.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking02_56D34C19.wem</Path>
+				</File>
+				<File Id="93159753" Language="SFX">
+					<ShortName>FS_Chameleons_Walking03.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking03_56D34C19.wem</Path>
+				</File>
+				<File Id="103503168" Language="SFX">
+					<ShortName>FS_Chameleons_Walking10.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking10_56D34C19.wem</Path>
+				</File>
+				<File Id="131592292" Language="SFX">
+					<ShortName>SFX_Emoji_Pop01.wav</ShortName>
+					<Path>SFX\SFX_Emoji_Pop01_56D34C19.wem</Path>
+				</File>
+				<File Id="150776606" Language="SFX">
+					<ShortName>SFX_Chameleon_ColorShift06.wav</ShortName>
+					<Path>SFX\SFX_Chameleon_ColorShift06_56D34C19.wem</Path>
+				</File>
+				<File Id="152352232" Language="SFX">
+					<ShortName>SFX_Chameleon_ColorShift05.wav</ShortName>
+					<Path>SFX\SFX_Chameleon_ColorShift05_56D34C19.wem</Path>
+				</File>
+				<File Id="224997968" Language="SFX">
+					<ShortName>SFX_Chameleon_ColorShift03.wav</ShortName>
+					<Path>SFX\SFX_Chameleon_ColorShift03_56D34C19.wem</Path>
+				</File>
+				<File Id="265921921" Language="SFX">
+					<ShortName>FS_Chameleons_Walking07.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking07_56D34C19.wem</Path>
+				</File>
+				<File Id="293927906" Language="SFX">
+					<ShortName>SFX_Emoji_Pop03.wav</ShortName>
+					<Path>SFX\SFX_Emoji_Pop03_56D34C19.wem</Path>
+				</File>
+				<File Id="335452880" Language="SFX">
+					<ShortName>FS_Chameleons_Walking05.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking05_56D34C19.wem</Path>
+				</File>
+				<File Id="424028071" Language="SFX">
+					<ShortName>AMB_NPC_Negate01.wav</ShortName>
+					<Path>SFX\AMB_NPC_Negate01_56D34C19.wem</Path>
+				</File>
+				<File Id="492055431" Language="SFX">
+					<ShortName>SFX_Chameleons_DabHits.wav</ShortName>
+					<Path>SFX\SFX_Chameleons_DabHits_56D34C19.wem</Path>
+				</File>
+				<File Id="514647141" Language="SFX">
+					<ShortName>SFX_Chameleon_ColorShift01.wav</ShortName>
+					<Path>SFX\SFX_Chameleon_ColorShift01_56D34C19.wem</Path>
+				</File>
+				<File Id="681007080" Language="SFX">
+					<ShortName>FS_Chameleons_Walking04.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking04_56D34C19.wem</Path>
+				</File>
+				<File Id="693074478" Language="SFX">
+					<ShortName>SFX_Chameleon_ColorShift04.wav</ShortName>
+					<Path>SFX\SFX_Chameleon_ColorShift04_56D34C19.wem</Path>
+				</File>
+				<File Id="699905247" Language="SFX">
+					<ShortName>FS_Chameleons_Walking01.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking01_56D34C19.wem</Path>
+				</File>
+				<File Id="701284468" Language="SFX">
+					<ShortName>AMB_NPC_Negate02.wav</ShortName>
+					<Path>SFX\AMB_NPC_Negate02_56D34C19.wem</Path>
+				</File>
+				<File Id="742745470" Language="SFX">
+					<ShortName>SFX_Chameleon_ColorShift08.wav</ShortName>
+					<Path>SFX\SFX_Chameleon_ColorShift08_56D34C19.wem</Path>
+				</File>
+				<File Id="755222402" Language="SFX">
+					<ShortName>SFX_Emoji_Pop02.wav</ShortName>
+					<Path>SFX\SFX_Emoji_Pop02_56D34C19.wem</Path>
+				</File>
+				<File Id="758032101" Language="SFX">
+					<ShortName>AMB_NPC_Accept02.wav</ShortName>
+					<Path>SFX\AMB_NPC_Accept02_56D34C19.wem</Path>
+				</File>
+				<File Id="791359897" Language="SFX">
+					<ShortName>FS_Chameleons_Walking09.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking09_56D34C19.wem</Path>
+				</File>
+				<File Id="910865387" Language="SFX">
+					<ShortName>SFX_Chameleon_ColorShift02.wav</ShortName>
+					<Path>SFX\SFX_Chameleon_ColorShift02_56D34C19.wem</Path>
+				</File>
+				<File Id="1035627652" Language="SFX">
+					<ShortName>AMB_NPC_Accept01.wav</ShortName>
+					<Path>SFX\AMB_NPC_Accept01_56D34C19.wem</Path>
+				</File>
+				<File Id="1044458939" Language="SFX">
+					<ShortName>FS_Chameleons_Walking06.wav</ShortName>
+					<Path>SFX\FS_Chameleons_Walking06_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

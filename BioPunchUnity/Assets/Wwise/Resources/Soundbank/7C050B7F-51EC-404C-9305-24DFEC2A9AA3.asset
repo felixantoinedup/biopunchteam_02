@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 390df00cb12f9de49bc32365489a1a61, type: 3}
+  m_Name: 7C050B7F-51EC-404C-9305-24DFEC2A9AA3
+  m_EditorClassIdentifier: 
+  objectName: BioPunchUnity
+  id: 3035725890
+  guid: 7C050B7F-51EC-404C-9305-24DFEC2A9AA3

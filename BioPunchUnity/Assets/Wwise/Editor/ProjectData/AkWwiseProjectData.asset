@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b842d50544aea1b4f819869933b55504, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 62ec6b0b936e944089d1a0d176090e93
+    m_lastTime: -8586599141370727245
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 17e9446a5303db4c895cdd517cdd1a38
+    m_lastTime: -8586599141371847236
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f3c4e9a9b52971429d46557052239a88
+    m_lastTime: -8586598821733294842
+    List:
+    - name: BioPunchUnity
+      guid: 7f0b057cec514c40930524dfec2a9aa3
+      id: 3035725890
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BioPunchUnity
+        ObjectType: 7
+      Path: Default Work Unit\BioPunchUnity
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8ec9162b2ea80844891c4d8ce71d4390
+    m_lastTime: -8586598821733174844
+    List:
+    - name: ColourShift
+      guid: 7be1deb1ea45984ab6ea83332ebaa579
+      id: 3228142023
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ColourShift
+        ObjectType: 3
+      Path: Default Work Unit\ColourShift
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Footsteps
+      guid: 84b4246e713b7541b87b884708df51a1
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Footsteps
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Music
+      guid: 1548119275c16840907376ab4bbd8ee8
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 5ad45d0fb16ebf4b8746c26a5b2542f9
+    m_lastTime: -8586599141372287221
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: a8b20df83a2bca4aa4e56cc1f4557239
+    m_lastTime: -8586599141370847244
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 19b1966a16ae0248a51bbddb9cee34fe
+    m_lastTime: -8586599141373147215
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0519769d7b52504d8aead3a95325fe4f
+    m_lastTime: -8586599141373046559
+    List: []
+  ExpandedItems:
+  - /BioPunchUnity_WwiseProject
+  - /BioPunchUnity_WwiseProject/Events
+  - /BioPunchUnity_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
