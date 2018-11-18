@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 76481c3d0a55a1f4e9ee115c81b8b39a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CameleonChest
+    100004: CameleonHead
+    100006: CameleonLArm1
+    100008: CameleonLArm2
+    100010: CameleonLArmCollarbone
+    100012: CameleonLArmDigit11
+    100014: CameleonLArmDigit12
+    100016: CameleonLArmDigit13
+    100018: CameleonLArmDigit21
+    100020: CameleonLArmDigit22
+    100022: CameleonLArmDigit23
+    100024: CameleonLArmDigit31
+    100026: CameleonLArmDigit32
+    100028: CameleonLArmDigit33
+    100030: CameleonLArmPalm
+    100032: CameleonLeftEye
+    100034: CameleonLeftFootEnd
+    100036: CameleonLeftLeg_1
+    100038: CameleonLeftLeg_2
+    100040: CameleonLeftLeg_Ankle
+    100042: CameleonLeftLeg_Foot1
+    100044: CameleonLeftLeg_Foot2
+    100046: CameleonLeftLeg_Platform
+    100048: CameleonMESHFinal
+    100050: CameleonPelvis
+    100052: CameleonRArm1
+    100054: CameleonRArm2
+    100056: CameleonRArmCollarbone
+    100058: CameleonRArmDigit11
+    100060: CameleonRArmDigit12
+    100062: CameleonRArmDigit13
+    100064: CameleonRArmDigit21
+    100066: CameleonRArmDigit22
+    100068: CameleonRArmDigit23
+    100070: CameleonRArmDigit31
+    100072: CameleonRArmDigit32
+    100074: CameleonRArmDigit33
+    100076: CameleonRArmPalm
+    100078: CameleonRightEndFoot
+    100080: CameleonRightEye
+    100082: CameleonRightLeg1
+    100084: CameleonRightLeg2
+    100086: CameleonRightLegAnkle
+    100088: CameleonRightLegFoot1
+    100090: CameleonRightLegFoot2
+    100092: CameleonRightLegPlatform
+    100094: CameleonSpine
+    100096: CameleonSpine1
+    100098: CameleonSpine2
+    100100: CameleonTail1
+    100102: CameleonTail2
+    100104: CameleonTail3
+    100106: CameleonTail4
+    100108: CameleonTail5
+    100110: CameleonTail6
+    400000: //RootNode
+    400002: CameleonChest
+    400004: CameleonHead
+    400006: CameleonLArm1
+    400008: CameleonLArm2
+    400010: CameleonLArmCollarbone
+    400012: CameleonLArmDigit11
+    400014: CameleonLArmDigit12
+    400016: CameleonLArmDigit13
+    400018: CameleonLArmDigit21
+    400020: CameleonLArmDigit22
+    400022: CameleonLArmDigit23
+    400024: CameleonLArmDigit31
+    400026: CameleonLArmDigit32
+    400028: CameleonLArmDigit33
+    400030: CameleonLArmPalm
+    400032: CameleonLeftEye
+    400034: CameleonLeftFootEnd
+    400036: CameleonLeftLeg_1
+    400038: CameleonLeftLeg_2
+    400040: CameleonLeftLeg_Ankle
+    400042: CameleonLeftLeg_Foot1
+    400044: CameleonLeftLeg_Foot2
+    400046: CameleonLeftLeg_Platform
+    400048: CameleonMESHFinal
+    400050: CameleonPelvis
+    400052: CameleonRArm1
+    400054: CameleonRArm2
+    400056: CameleonRArmCollarbone
+    400058: CameleonRArmDigit11
+    400060: CameleonRArmDigit12
+    400062: CameleonRArmDigit13
+    400064: CameleonRArmDigit21
+    400066: CameleonRArmDigit22
+    400068: CameleonRArmDigit23
+    400070: CameleonRArmDigit31
+    400072: CameleonRArmDigit32
+    400074: CameleonRArmDigit33
+    400076: CameleonRArmPalm
+    400078: CameleonRightEndFoot
+    400080: CameleonRightEye
+    400082: CameleonRightLeg1
+    400084: CameleonRightLeg2
+    400086: CameleonRightLegAnkle
+    400088: CameleonRightLegFoot1
+    400090: CameleonRightLegFoot2
+    400092: CameleonRightLegPlatform
+    400094: CameleonSpine
+    400096: CameleonSpine1
+    400098: CameleonSpine2
+    400100: CameleonTail1
+    400102: CameleonTail2
+    400104: CameleonTail3
+    400106: CameleonTail4
+    400108: CameleonTail5
+    400110: CameleonTail6
+    2100000: Body
+    2100002: Eeyes
+    4300000: CameleonMESHFinal
+    9500000: //RootNode
+    13700000: CameleonMESHFinal
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
