@@ -3,55 +3,119 @@ guid: 3bd0a49ac368e5c459845e50849195c4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Bee_Aile_Gauche
-    100002: Bee_Aile_Left
-    100004: Bee_Booty
-    100006: //RootNode
-    100008: Bee_Head
-    100010: Capsule002
-    100012: Capsule003
-    100014: Capsule004
-    100016: Capsule005
-    400000: Bee_Aile_Gauche
-    400002: Bee_Aile_Left
-    400004: Bee_Booty
-    400006: //RootNode
-    400008: Bee_Head
-    400010: Capsule002
-    400012: Capsule003
-    400014: Capsule004
-    400016: Capsule005
-    2100000: 'Material #36'
-    2100002: 'Material #37'
-    2100004: No Name
-    2100006: 'Material #35 Slot #3'
-    2300000: Bee_Aile_Gauche
-    2300002: Bee_Aile_Left
-    2300004: Bee_Booty
-    2300006: //RootNode
-    2300008: Bee_Head
-    2300010: Capsule002
-    2300012: Capsule003
-    2300014: Capsule004
-    2300016: Capsule005
-    3300000: Bee_Aile_Gauche
-    3300002: Bee_Aile_Left
-    3300004: Bee_Booty
-    3300006: //RootNode
-    3300008: Bee_Head
-    3300010: Capsule002
-    3300012: Capsule003
-    3300014: Capsule004
-    3300016: Capsule005
+    100000: Bee_Aile_Left
+    100002: Bee_Aile_Right
+    100004: Bee_Antenna_Left
+    100006: Bee_Antenna_Right
+    100008: Bee_Booty
+    100010: //RootNode
+    100012: Bee_EndAntenna_Left
+    100014: Bee_EndAntenna_Right
+    100016: Bee_Eyes
+    100018: Bee_Head
+    100020: Bee_L_Foot1
+    100022: Bee_L_Foot2
+    100024: Bee_L_Foot3
+    100026: Bee_L_Leg1
+    100028: Bee_L_Leg2
+    100030: Bee_L_Leg3
+    100032: Bee_R_Foot1
+    100034: Bee_R_Foot2
+    100036: Bee_R_Foot3
+    100038: Bee_R_Leg1
+    100040: Bee_R_Leg2
+    100042: Bee_R_Leg3
+    400000: Bee_Aile_Left
+    400002: Bee_Aile_Right
+    400004: Bee_Antenna_Left
+    400006: Bee_Antenna_Right
+    400008: Bee_Booty
+    400010: //RootNode
+    400012: Bee_EndAntenna_Left
+    400014: Bee_EndAntenna_Right
+    400016: Bee_Eyes
+    400018: Bee_Head
+    400020: Bee_L_Foot1
+    400022: Bee_L_Foot2
+    400024: Bee_L_Foot3
+    400026: Bee_L_Leg1
+    400028: Bee_L_Leg2
+    400030: Bee_L_Leg3
+    400032: Bee_R_Foot1
+    400034: Bee_R_Foot2
+    400036: Bee_R_Foot3
+    400038: Bee_R_Leg1
+    400040: Bee_R_Leg2
+    400042: Bee_R_Leg3
+    2100000: 'Material #37'
+    2100002: No Name
+    2100004: 'Material #35 Slot #3'
+    2300000: Bee_Aile_Left
+    2300002: Bee_Aile_Right
+    2300004: Bee_Antenna_Left
+    2300006: Bee_Antenna_Right
+    2300008: Bee_Booty
+    2300010: //RootNode
+    2300012: Bee_EndAntenna_Left
+    2300014: Bee_EndAntenna_Right
+    2300016: Bee_Eyes
+    2300018: Bee_Head
+    2300020: Bee_L_Foot1
+    2300022: Bee_L_Foot2
+    2300024: Bee_L_Foot3
+    2300026: Bee_L_Leg1
+    2300028: Bee_L_Leg2
+    2300030: Bee_L_Leg3
+    2300032: Bee_R_Foot1
+    2300034: Bee_R_Foot2
+    2300036: Bee_R_Foot3
+    2300038: Bee_R_Leg1
+    2300040: Bee_R_Leg2
+    2300042: Bee_R_Leg3
+    3300000: Bee_Aile_Left
+    3300002: Bee_Aile_Right
+    3300004: Bee_Antenna_Left
+    3300006: Bee_Antenna_Right
+    3300008: Bee_Booty
+    3300010: //RootNode
+    3300012: Bee_EndAntenna_Left
+    3300014: Bee_EndAntenna_Right
+    3300016: Bee_Eyes
+    3300018: Bee_Head
+    3300020: Bee_L_Foot1
+    3300022: Bee_L_Foot2
+    3300024: Bee_L_Foot3
+    3300026: Bee_L_Leg1
+    3300028: Bee_L_Leg2
+    3300030: Bee_L_Leg3
+    3300032: Bee_R_Foot1
+    3300034: Bee_R_Foot2
+    3300036: Bee_R_Foot3
+    3300038: Bee_R_Leg1
+    3300040: Bee_R_Leg2
+    3300042: Bee_R_Leg3
     4300000: Bee_Body
     4300002: Bee_Head
-    4300004: Capsule002
-    4300006: Capsule003
-    4300008: Capsule005
-    4300010: Capsule004
-    4300012: Bee_Aile_Left
-    4300014: Bee_Booty
-    4300016: Bee_Aile_Gauche
+    4300004: Bee_Antenna_Left
+    4300006: Bee_EndAntenna_Left
+    4300008: Bee_Antenna_Right
+    4300010: Bee_EndAntenna_Right
+    4300012: Bee_Eyes
+    4300014: Bee_Aile_Left
+    4300016: Bee_Booty
+    4300018: Bee_Aile_Right
+    4300020: Bee_L_Leg1
+    4300022: Bee_L_Foot1
+    4300024: Bee_L_Leg2
+    4300026: Bee_L_Foot2
+    4300028: Bee_L_Leg3
+    4300030: Bee_L_Foot3
+    4300032: Bee_R_Leg1
+    4300034: Bee_R_Foot1
+    4300036: Bee_R_Leg2
+    4300038: Bee_R_Foot2
+    4300040: Bee_R_Leg3
+    4300042: Bee_R_Foot3
   externalObjects: {}
   materials:
     importMaterials: 1
