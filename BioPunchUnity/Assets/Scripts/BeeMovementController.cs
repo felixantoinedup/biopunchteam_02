@@ -71,6 +71,7 @@ public class BeeMovementController : MonoBehaviour {
 
     void RotateTorwardsCursor()
     {
+        if ((GetMouseCursorPosition() - transform.position).magnitude != 0)
         transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(GetMouseCursorPosition() - transform.position), beeRotationSpeed * Time.deltaTime);
     }
 
