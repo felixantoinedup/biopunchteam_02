@@ -13,8 +13,8 @@ ModelImporter:
     100014: Bee_EndAntenna_Right
     100016: Bee_Eyes
     100018: Bee_Head
-    100020: Bee_L_Foot1
-    100022: Bee_L_Foot2
+    100020: Bee_L_Foot007
+    100022: Bee_L_Foot1
     100024: Bee_L_Foot3
     100026: Bee_L_Leg1
     100028: Bee_L_Leg2
@@ -35,8 +35,8 @@ ModelImporter:
     400014: Bee_EndAntenna_Right
     400016: Bee_Eyes
     400018: Bee_Head
-    400020: Bee_L_Foot1
-    400022: Bee_L_Foot2
+    400020: Bee_L_Foot007
+    400022: Bee_L_Foot1
     400024: Bee_L_Foot3
     400026: Bee_L_Leg1
     400028: Bee_L_Leg2
@@ -47,9 +47,9 @@ ModelImporter:
     400038: Bee_R_Leg1
     400040: Bee_R_Leg2
     400042: Bee_R_Leg3
-    2100000: 'Material #37'
-    2100002: No Name
-    2100004: 'Material #35 Slot #3'
+    2100000: 'Material #36'
+    2100002: 'Material #38'
+    2100004: 'Material #37'
     2300000: Bee_Aile_Left
     2300002: Bee_Aile_Right
     2300004: Bee_Antenna_Left
@@ -60,8 +60,8 @@ ModelImporter:
     2300014: Bee_EndAntenna_Right
     2300016: Bee_Eyes
     2300018: Bee_Head
-    2300020: Bee_L_Foot1
-    2300022: Bee_L_Foot2
+    2300020: Bee_L_Foot007
+    2300022: Bee_L_Foot1
     2300024: Bee_L_Foot3
     2300026: Bee_L_Leg1
     2300028: Bee_L_Leg2
@@ -82,8 +82,8 @@ ModelImporter:
     3300014: Bee_EndAntenna_Right
     3300016: Bee_Eyes
     3300018: Bee_Head
-    3300020: Bee_L_Foot1
-    3300022: Bee_L_Foot2
+    3300020: Bee_L_Foot007
+    3300022: Bee_L_Foot1
     3300024: Bee_L_Foot3
     3300026: Bee_L_Leg1
     3300028: Bee_L_Leg2
@@ -96,20 +96,20 @@ ModelImporter:
     3300042: Bee_R_Leg3
     4300000: Bee_Body
     4300002: Bee_Head
-    4300004: Bee_Antenna_Left
-    4300006: Bee_EndAntenna_Left
-    4300008: Bee_Antenna_Right
-    4300010: Bee_EndAntenna_Right
-    4300012: Bee_Eyes
+    4300004: Bee_Antenna_Right
+    4300006: Bee_EndAntenna_Right
+    4300008: Bee_Eyes
+    4300010: Bee_Antenna_Left
+    4300012: Bee_EndAntenna_Left
     4300014: Bee_Aile_Left
     4300016: Bee_Booty
     4300018: Bee_Aile_Right
     4300020: Bee_L_Leg1
     4300022: Bee_L_Foot1
-    4300024: Bee_L_Leg2
-    4300026: Bee_L_Foot2
-    4300028: Bee_L_Leg3
-    4300030: Bee_L_Foot3
+    4300024: Bee_L_Leg3
+    4300026: Bee_L_Foot3
+    4300028: Bee_L_Leg2
+    4300030: Bee_L_Foot007
     4300032: Bee_R_Leg1
     4300034: Bee_R_Foot1
     4300036: Bee_R_Leg2
