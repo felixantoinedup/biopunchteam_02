@@ -11,39 +11,62 @@ public class Plant : MonoBehaviour {
     //}
 
     public System.String PlantName;
+    public System.Guid plantUniqueId;
 
     private List<System.String> dnaChain;
     private System.String PlantCrossedName;
+    private float plantLife = 100.0f;
+    private float plantLifeLossOverTime = 10.0f;
 
     // Use this for initialization
     void Start () {
         dnaChain = new List<System.String>();
         dnaChain.Add(PlantName);
         PlantCrossedName = PlantName;
+        plantUniqueId = System.Guid.NewGuid();
+        Debug.Log(plantUniqueId.ToString());
     }
 
     void MixPollen(Plant other)
     {
-        if(other.PlantName != this.PlantName && !dnaChain.Contains(other.PlantName))
+        if(other.PlantName != this.PlantName && 
+            other.plantUniqueId != this.plantUniqueId && 
+            !dnaChain.Contains(other.PlantName))
         {
             
             dnaChain.Add(other.PlantName);
             PlantCrossedName += other.PlantName;
+            Debug.Log("Mix Pollen Dna chain: " + DnaChainLength().ToString() + " Full plant name: " + PlantCrossedName);
         }
-        Debug.Log("Dna chain: " + DnaChainLength().ToString() + " Full plant name: " + PlantCrossedName);
+        else if (other.plantUniqueId != this.plantUniqueId)
+        {
+            Debug.Log("Mix Pollen NO CROSS");
+        }
+
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
-        Plant plant_ = other.GetComponent<Plant>();
+        Debug.Log("Plant Trigger enter: " + PlantCrossedName);
 
-        if(plant_ != null)
+        //Plant plant_ = other.GetComponent<Plant>();
+        BeePockets bee = other.GetComponent<BeePockets>();
+
+        if(bee != null)
         {
-            this.MixPollen(plant_);
-
-        }
-          
+            if (bee.plantPollen != null)
+            {
+                this.MixPollen(bee.plantPollen);
+                bee.plantPollen = null;
+                Debug.Log("Bee dropped pollen");
+            }
+            else
+            {
+                bee.plantPollen = this;
+                Debug.Log("Bee received: " + PlantCrossedName);
+            }
+        }      
     }
 
 
@@ -55,6 +78,7 @@ public class Plant : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        plantLife -= Time.deltaTime * 1.0f/plantLifeLossOverTime; // FIXME Slow I know
+
+    }
 }
