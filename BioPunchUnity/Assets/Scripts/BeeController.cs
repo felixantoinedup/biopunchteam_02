@@ -46,14 +46,12 @@ public class BeeController : MonoBehaviour
 
         if (GetIsHoldingPollen())
         {
-            Debug.Log("No");
             pollen.SetActive(false);
             flowerWhoGavePollen = null;
             SetIsHoldingPollen(false);
         }
         else
         {
-            Debug.Log("Yes");
             pollen.SetActive(true);
             flowerWhoGavePollen = currentFlower;
             SetIsHoldingPollen(true);
