@@ -8,15 +8,25 @@ public class BeeMovementController : MonoBehaviour {
     public float beeRotationSpeed = 1f;
     public float beeHeight = 1f;
     public float zOffset = 0f;
+    public float twerkDelay = 0.15f;
     public LayerMask floorMask;
 
-    Rigidbody rBody;
     float camRayLength = 100f;
+    Vector3 currentMouseCursorPosition;
+    Vector3 previousMouseCursorPosition;
+    float twerkNextTimeStamp = 0;
+
+    BeeController beeController;
+    Rigidbody rBody;
 
     Vector3 velocity = Vector3.zero;
 
     private void Awake()
     {
+        currentMouseCursorPosition = new Vector3(0, 0, 0);
+        previousMouseCursorPosition = new Vector3(0, 0, 0);
+
+        beeController = GetComponent<BeeController>();
         rBody = GetComponent<Rigidbody>();
     }
 
@@ -27,8 +37,26 @@ public class BeeMovementController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        MoveTorwardsCursor();
-        RotateTorwardsCursor();
+        currentMouseCursorPosition = GetMouseCursorPosition();
+
+        if(Time.time > twerkNextTimeStamp)
+        {
+            beeController.ResetShakes();
+        }
+
+        if(!CheckIfTwerking())
+        {
+            MoveTorwardsCursor();
+            RotateTorwardsCursor();
+
+            beeController.SetIsTwerking(false);
+        }
+        else
+        {
+            beeController.SetIsTwerking(true);
+        }
+
+        previousMouseCursorPosition = currentMouseCursorPosition;
     }
 
     void FixedUpdate()
@@ -63,4 +91,35 @@ public class BeeMovementController : MonoBehaviour {
 
         return cursorPosition;
     }
+
+    bool CheckIfTwerking()
+    {
+        if (!beeController.GetCurrentFlower())
+            return false;
+
+        if(beeController.GetIsHoldingPollen())
+        {
+            if (!beeController.CanGivePollen())
+                return false;
+        }
+
+        float currentX = currentMouseCursorPosition.x - transform.position.x;
+        float previousX = previousMouseCursorPosition.x - transform.position.x;
+
+        if (!sameSign(currentX, previousX))
+        {
+            beeController.IncreaseShakes();
+            twerkNextTimeStamp = Time.time + twerkDelay;
+        }
+
+        if (!beeController.IsEnoughShakeToTwerk())
+            return false;
+
+        return true;
+    }
+
+    bool sameSign(float num1, float num2)
+    {
+        return num1 >= 0 && num2 >= 0 || num1 < 0 && num2 < 0;
+}
 }
