@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4201890318992740}
   - component: {fileID: 33326909575741592}
   - component: {fileID: 23360515817387928}
+  - component: {fileID: 114628180543110994}
   m_Layer: 0
   m_Name: SM_Marguerite_01
   m_TagString: Untagged
@@ -69,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1209637922676954}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -3.1545057, y: 0.0058564385, z: -4.6903324}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4987952877304790}
@@ -229,3 +230,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1364011250448708}
   m_Mesh: {fileID: 4300004, guid: 91ec104cb09d84e469bd8d4a9644f1fa, type: 3}
+--- !u!114 &114628180543110994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1209637922676954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46384bdf1533e443bc2276f298f3dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PetalMaterial: {fileID: 0}

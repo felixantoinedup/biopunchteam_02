@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4324430977108070}
   - component: {fileID: 33925222048909370}
   - component: {fileID: 23280767212169758}
+  - component: {fileID: 114484628147055432}
   m_Layer: 0
   m_Name: SM_Bleuet_03
   m_TagString: Untagged
@@ -69,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1293723010117280}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -3.284925, y: 0.008006146, z: -5.8101563}
+  m_LocalPosition: {x: -1.007885, y: -0.0000010507141, z: -8.81403}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4750774655149424}
@@ -229,3 +230,14 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1293723010117280}
   m_Mesh: {fileID: 4300000, guid: 9359d272966a5484892262be9e95d2a7, type: 3}
+--- !u!114 &114484628147055432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293723010117280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46384bdf1533e443bc2276f298f3dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

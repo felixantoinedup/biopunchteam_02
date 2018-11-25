@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 4583165502444218}
   - component: {fileID: 33307082265167146}
   - component: {fileID: 23505990403799872}
+  - component: {fileID: 114882589532085092}
   m_Layer: 0
   m_Name: SM_Rose_02
   m_TagString: Untagged
@@ -95,7 +96,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1541757379236074}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -3.1823814, y: 0.005552218, z: -5.2648025}
+  m_LocalPosition: {x: -1.367605, y: -0.0000013694764, z: -11.488003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4197465725032496}
@@ -229,3 +230,14 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1389732265964614}
   m_Mesh: {fileID: 4300004, guid: b6e451525facc26408e60585ae620ab1, type: 3}
+--- !u!114 &114882589532085092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541757379236074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46384bdf1533e443bc2276f298f3dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
