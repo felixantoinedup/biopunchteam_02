@@ -9,8 +9,10 @@ State	ID	Name	State Group			Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	437129503	Bee_Twerk			\Default Work Unit\Master Audio Bus\Bee_Twerk	
+	1433553965	Reggeaton			\Default Work Unit\Master Audio Bus\Reggeaton	
 	1461531525	Bee_Buzz			\Default Work Unit\Master Audio Bus\Bee_Buzz	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
