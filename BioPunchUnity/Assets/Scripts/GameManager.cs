@@ -69,6 +69,9 @@ public class GameManager : MonoBehaviour {
         isGameStarted = true;
         pointsNextTimeStamp = Time.time + delayPoints;
         ChangeSection();
+        AkSoundEngine.PostEvent("Music_Start", gameObject);
+        AkSoundEngine.PostEvent("AMB_Level_Start", gameObject);
+        AkSoundEngine.PostEvent("SFX_Bee_Buzz", gameObject);
     }
 
     public void AddScore(int _score)

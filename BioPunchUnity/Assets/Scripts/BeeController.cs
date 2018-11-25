@@ -7,6 +7,7 @@ public class BeeController : MonoBehaviour
     public int minimumShakesToTwerk = 3;
     public float durationStun = 1f;
     public GameObject pollen;
+    public GameObject beeMesh;
 
     FlowerController currentFlower = null;
     FlowerController flowerWhoGavePollen = null;
@@ -17,11 +18,13 @@ public class BeeController : MonoBehaviour
 
     BeeMovementController beeMovementController;
     Rigidbody rBody;
+    Animator beeAnimator;
 
     private void Awake()
     {
         beeMovementController = GetComponent<BeeMovementController>();
         rBody = GetComponent<Rigidbody>();
+        beeAnimator = beeMesh.GetComponent<Animator>();
     }
 
     // Use this for initialization
@@ -131,6 +134,7 @@ public class BeeController : MonoBehaviour
     public void SetIsTwerking(bool _isTwerking)
     {
         isTwerking = _isTwerking;
+        beeAnimator.SetBool("IsTwerking", isTwerking);
     }
 
     public bool GetIsHoldingPollen()
