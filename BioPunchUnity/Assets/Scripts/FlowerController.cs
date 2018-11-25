@@ -9,7 +9,7 @@ public class FlowerController : MonoBehaviour
 
     private List<System.String> dnaChain;
     private System.String PlantCrossedName;
-    private float cDefaultPlantLife = 5.0f;
+    private float cDefaultPlantLife = 30.0f;
     private float plantLife = 0.0f;
     private float plantLifeLossOverTime = 1.0f;
 
@@ -27,6 +27,8 @@ public class FlowerController : MonoBehaviour
     bool isFlowerActive = false;
     float pointsNextTimeStamp = 0;
 
+    private Material defaultMaterial;
+
     // Use this for initialization
     void Start()
     {
@@ -40,6 +42,17 @@ public class FlowerController : MonoBehaviour
         //rend.material = CrossPollenMaterials[0];
         //filter = GetComponentInChildren<MeshFilter>();
         //Instantiate(CrossPollenPrefabs[0]);
+
+        Renderer[] renderers = GetComponentsInChildren<Renderer>();
+        Renderer currentRender = null;
+        foreach (Renderer r in renderers)
+        {
+            if (r.gameObject.name == "Petales")
+                currentRender = r;
+
+        }
+        if(currentRender)
+            defaultMaterial = currentRender.material;
     }
 
     // The longer the Chain, the more POINTS! 
@@ -96,7 +109,18 @@ public class FlowerController : MonoBehaviour
         newprefab.transform.eulerAngles = new Vector3(-90f, 0f, 0f);
 
         FlowerMaterialSetter matSetter = GetComponentInChildren<FlowerMaterialSetter>();
-        matSetter.PetalMaterial = CrossPollenMaterials[DnaChainLength() - 1];
+        if(dnaChain.Contains("Rose"))
+        { 
+            matSetter.PetalMaterial = CrossPollenMaterials[2];
+        }
+        else if (dnaChain.Contains("Bleuet"))
+        {
+            matSetter.PetalMaterial = CrossPollenMaterials[0];
+        }
+        else
+        {
+            matSetter.PetalMaterial = CrossPollenMaterials[DnaChainLength() - 1];
+        }
     }
 
     public void ClearChildren()
@@ -156,7 +180,9 @@ public class FlowerController : MonoBehaviour
         newprefab.transform.eulerAngles = new Vector3(-90f, 0f, 0f);
 
         FlowerMaterialSetter matSetter = GetComponentInChildren<FlowerMaterialSetter>();
-        matSetter.PetalMaterial = CrossPollenMaterials[DnaChainLength() - 1];
+        //matSetter.PetalMaterial = CrossPollenMaterials[DnaChainLength() - 1];
+        matSetter.PetalMaterial = defaultMaterial;
+
     }
 
     void ResetPlantLife()
