@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0F5DD45A-6EB1-4BBF-8746-C26A5B2542F9}" SchemaVersion="89">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{0F5DD45A-6EB1-4BBF-8746-C26A5B2542F9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0F5DD45A-6EB1-4BBF-8746-C26A5B2542F9}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Fly_Speed" ID="{F3171953-524E-4C14-B06F-76D10CD1F9F7}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

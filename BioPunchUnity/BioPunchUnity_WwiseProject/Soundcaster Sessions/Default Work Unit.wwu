@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{19EE6737-59E5-4DAF-9017-65EB9749768D}" SchemaVersion="89">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{19EE6737-59E5-4DAF-9017-65EB9749768D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{19EE6737-59E5-4DAF-9017-65EB9749768D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Get_Beez-y" ID="{E975C3EC-C71B-4676-AAD9-26BFC5494A09}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music_Start" ID="{92114815-C175-4068-9073-76AB4BBD8EE8}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Bee_Buzz" ID="{6B43DE73-D96E-4C35-8185-AC30794F8C99}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Flower_Breed1" ID="{3FBBF6E2-FAA7-419E-8E4D-0147525A0A9D}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Layer2" ID="{7B0F940D-CE99-4359-BBD8-B6F1B7565C42}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Bee_Twerk" ID="{23F065DE-EB34-434C-8149-425F3041FB02}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Flower_Breed2" ID="{58EFA6D9-8815-4E7E-8760-A5A9964C40F0}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MUS_Layer3" ID="{3A5AA1A0-E7CA-437C-A49B-033AE18034F3}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Flower_Breed3" ID="{A047D43A-B78F-4EC2-AD79-E335B158EBCD}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SFX_Crossbreed_Success" ID="{5D3CCCEC-B00D-47F1-A849-3FF1337712DC}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="AMB_Level_Start" ID="{CAF069A5-6241-483A-B94D-A021BFF83509}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Fly_Speed" ID="{F3171953-524E-4C14-B06F-76D10CD1F9F7}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Layer3" ID="{C36BEC93-23AA-45DD-8294-E2CCE6BF0C3D}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

@@ -21,122 +21,149 @@
 			<ShortName>BioPunchUnity</ShortName>
 			<Path>BioPunchUnity.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3228142023" Name="ColourShift" ObjectPath="\Events\Default Work Unit\ColourShift"/>
-				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps"/>
-				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music"/>
+				<Event Id="378653913" Name="AMB_Level_Start" ObjectPath="\Events\Default Work Unit\AMB_Level_Start"/>
+				<Event Id="445604206" Name="MUS_Layer2" ObjectPath="\Events\Default Work Unit\MUS_Layer2" MaxAttenuation="0.000000"/>
+				<Event Id="445604207" Name="MUS_Layer3" ObjectPath="\Events\Default Work Unit\MUS_Layer3" MaxAttenuation="0.000000"/>
+				<Event Id="3725903807" Name="Music_Start" ObjectPath="\Events\Default Work Unit\Music_Start"/>
+				<Event Id="664649349" Name="SFX_Bee_Buzz" ObjectPath="\Events\Default Work Unit\SFX_Bee_Buzz"/>
+				<Event Id="1416159775" Name="SFX_Bee_Twerk" ObjectPath="\Events\Default Work Unit\SFX_Bee_Twerk"/>
+				<Event Id="3242134711" Name="SFX_Crossbreed_Success" ObjectPath="\Events\Default Work Unit\SFX_Crossbreed_Success"/>
+				<Event Id="2001778080" Name="SFX_Flower_Breed1" ObjectPath="\Events\Default Work Unit\SFX_Flower_Breed1"/>
+				<Event Id="2001778083" Name="SFX_Flower_Breed2" ObjectPath="\Events\Default Work Unit\SFX_Flower_Breed2"/>
+				<Event Id="2001778082" Name="SFX_Flower_Breed3" ObjectPath="\Events\Default Work Unit\SFX_Flower_Breed3"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="4122415" Language="SFX">
-					<ShortName>SFX_Chameleon_ColorShift07.wav</ShortName>
-					<Path>SFX\SFX_Chameleon_ColorShift07_56D34C19.wem</Path>
+				<File Id="25028117" Language="SFX">
+					<ShortName>SFX_Flower_Breed3.wav</ShortName>
+					<Path>SFX\SFX_Flower_Breed3_8956FC97.wem</Path>
 				</File>
-				<File Id="18710268" Language="SFX">
-					<ShortName>MUS_Blend-In_Funk.wav</ShortName>
-					<Path>SFX\MUS_Blend-In_Funk_8956FC97.wem</Path>
+				<File Id="50920040" Language="SFX">
+					<ShortName>SFX_Flower_Rub09.wav</ShortName>
+					<Path>SFX\SFX_Flower_Rub09_56D34C19.wem</Path>
 				</File>
-				<File Id="50455860" Language="SFX">
-					<ShortName>AMB_NPC_Mumble.wav</ShortName>
-					<Path>SFX\AMB_NPC_Mumble_8956FC97.wem</Path>
+				<File Id="54607862" Language="SFX">
+					<ShortName>SFX_Flower_Rub06.wav</ShortName>
+					<Path>SFX\SFX_Flower_Rub06_56D34C19.wem</Path>
 				</File>
-				<File Id="51696946" Language="SFX">
-					<ShortName>FS_Chameleons_Walking08.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking08_56D34C19.wem</Path>
+				<File Id="58267274" Language="SFX">
+					<ShortName>AMB_Wind&amp;birds_Gentle.wav</ShortName>
+					<Path>SFX\AMB_Wind&amp;birds_Gentle_8956FC97.wem</Path>
 				</File>
-				<File Id="78156934" Language="SFX">
-					<ShortName>FS_Chameleons_Walking02.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking02_56D34C19.wem</Path>
+				<File Id="58736859" Language="SFX">
+					<ShortName>SFX_Flower_Rub02.wav</ShortName>
+					<Path>SFX\SFX_Flower_Rub02_56D34C19.wem</Path>
 				</File>
-				<File Id="93159753" Language="SFX">
-					<ShortName>FS_Chameleons_Walking03.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking03_56D34C19.wem</Path>
+				<File Id="120431732" Language="SFX">
+					<ShortName>MUS_Level_Layer2_32bars_150BPM.wav</ShortName>
+					<Path>SFX\MUS_Level_Layer2_32bars_150BPM_8956FC97.wem</Path>
 				</File>
-				<File Id="103503168" Language="SFX">
-					<ShortName>FS_Chameleons_Walking10.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking10_56D34C19.wem</Path>
+				<File Id="128236894" Language="SFX">
+					<ShortName>MUS_Level_Layer3_32bars_175BPM.wav</ShortName>
+					<Path>SFX\MUS_Level_Layer3_32bars_175BPM_8956FC97.wem</Path>
 				</File>
-				<File Id="131592292" Language="SFX">
-					<ShortName>SFX_Emoji_Pop01.wav</ShortName>
-					<Path>SFX\SFX_Emoji_Pop01_56D34C19.wem</Path>
+				<File Id="157619996" Language="SFX">
+					<ShortName>AMB_Random_Animals06.wav</ShortName>
+					<Path>SFX\AMB_Random_Animals06_56D34C19.wem</Path>
 				</File>
-				<File Id="150776606" Language="SFX">
-					<ShortName>SFX_Chameleon_ColorShift06.wav</ShortName>
-					<Path>SFX\SFX_Chameleon_ColorShift06_56D34C19.wem</Path>
+				<File Id="169947032" Language="SFX">
+					<ShortName>AMB_Random_Animals07.wav</ShortName>
+					<Path>SFX\AMB_Random_Animals07_56D34C19.wem</Path>
 				</File>
-				<File Id="152352232" Language="SFX">
-					<ShortName>SFX_Chameleon_ColorShift05.wav</ShortName>
-					<Path>SFX\SFX_Chameleon_ColorShift05_56D34C19.wem</Path>
+				<File Id="172965776" Language="SFX">
+					<ShortName>SFX_Flower_Breed1.wav</ShortName>
+					<Path>SFX\SFX_Flower_Breed1_8956FC97.wem</Path>
 				</File>
-				<File Id="224997968" Language="SFX">
-					<ShortName>SFX_Chameleon_ColorShift03.wav</ShortName>
-					<Path>SFX\SFX_Chameleon_ColorShift03_56D34C19.wem</Path>
+				<File Id="233792998" Language="SFX">
+					<ShortName>SFX_Flower_Crossbreed.wav</ShortName>
+					<Path>SFX\SFX_Flower_Crossbreed_56D34C19.wem</Path>
 				</File>
-				<File Id="265921921" Language="SFX">
-					<ShortName>FS_Chameleons_Walking07.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking07_56D34C19.wem</Path>
+				<File Id="260129506" Language="SFX">
+					<ShortName>MUS_Level_Layer1_36bars_4BarsPR_125BPM.wav</ShortName>
+					<Path>SFX\MUS_Level_Layer1_36bars_4BarsPR_125BPM_8956FC97.wem</Path>
 				</File>
-				<File Id="293927906" Language="SFX">
-					<ShortName>SFX_Emoji_Pop03.wav</ShortName>
-					<Path>SFX\SFX_Emoji_Pop03_56D34C19.wem</Path>
+				<File Id="272081647" Language="SFX">
+					<ShortName>AMB_Random_Animals04.wav</ShortName>
+					<Path>SFX\AMB_Random_Animals04_56D34C19.wem</Path>
 				</File>
-				<File Id="335452880" Language="SFX">
-					<ShortName>FS_Chameleons_Walking05.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking05_56D34C19.wem</Path>
+				<File Id="344809427" Language="SFX">
+					<ShortName>AMB_Random_Animals05.wav</ShortName>
+					<Path>SFX\AMB_Random_Animals05_56D34C19.wem</Path>
 				</File>
-				<File Id="424028071" Language="SFX">
-					<ShortName>AMB_NPC_Negate01.wav</ShortName>
-					<Path>SFX\AMB_NPC_Negate01_56D34C19.wem</Path>
+				<File Id="381071406" Language="SFX">
+					<ShortName>SFX_Flower_Rub04.wav</ShortName>
+					<Path>SFX\SFX_Flower_Rub04_56D34C19.wem</Path>
 				</File>
-				<File Id="492055431" Language="SFX">
-					<ShortName>SFX_Chameleons_DabHits.wav</ShortName>
-					<Path>SFX\SFX_Chameleons_DabHits_56D34C19.wem</Path>
+				<File Id="390147179" Language="SFX">
+					<ShortName>SFX_Bee_Chuckle03.wav</ShortName>
+					<Path>SFX\SFX_Bee_Chuckle03_56D34C19.wem</Path>
 				</File>
-				<File Id="514647141" Language="SFX">
-					<ShortName>SFX_Chameleon_ColorShift01.wav</ShortName>
-					<Path>SFX\SFX_Chameleon_ColorShift01_56D34C19.wem</Path>
+				<File Id="411896106" Language="SFX">
+					<ShortName>SFX_Flower_Breed2.wav</ShortName>
+					<Path>SFX\SFX_Flower_Breed2_8956FC97.wem</Path>
 				</File>
-				<File Id="681007080" Language="SFX">
-					<ShortName>FS_Chameleons_Walking04.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking04_56D34C19.wem</Path>
+				<File Id="415455760" Language="SFX">
+					<ShortName>AMB_Random_Animals08.wav</ShortName>
+					<Path>SFX\AMB_Random_Animals08_56D34C19.wem</Path>
 				</File>
-				<File Id="693074478" Language="SFX">
-					<ShortName>SFX_Chameleon_ColorShift04.wav</ShortName>
-					<Path>SFX\SFX_Chameleon_ColorShift04_56D34C19.wem</Path>
+				<File Id="517679363" Language="SFX">
+					<ShortName>SFX_Bee_Chuckle01.wav</ShortName>
+					<Path>SFX\SFX_Bee_Chuckle01_56D34C19.wem</Path>
 				</File>
-				<File Id="699905247" Language="SFX">
-					<ShortName>FS_Chameleons_Walking01.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking01_56D34C19.wem</Path>
+				<File Id="523721530" Language="SFX">
+					<ShortName>AMB_Random_Animals01.wav</ShortName>
+					<Path>SFX\AMB_Random_Animals01_56D34C19.wem</Path>
 				</File>
-				<File Id="701284468" Language="SFX">
-					<ShortName>AMB_NPC_Negate02.wav</ShortName>
-					<Path>SFX\AMB_NPC_Negate02_56D34C19.wem</Path>
+				<File Id="526472990" Language="SFX">
+					<ShortName>SFX_Bee_Chuckle05.wav</ShortName>
+					<Path>SFX\SFX_Bee_Chuckle05_56D34C19.wem</Path>
 				</File>
-				<File Id="742745470" Language="SFX">
-					<ShortName>SFX_Chameleon_ColorShift08.wav</ShortName>
-					<Path>SFX\SFX_Chameleon_ColorShift08_56D34C19.wem</Path>
+				<File Id="578805507" Language="SFX">
+					<ShortName>SFX_Bee_Chuckle07.wav</ShortName>
+					<Path>SFX\SFX_Bee_Chuckle07_56D34C19.wem</Path>
 				</File>
-				<File Id="755222402" Language="SFX">
-					<ShortName>SFX_Emoji_Pop02.wav</ShortName>
-					<Path>SFX\SFX_Emoji_Pop02_56D34C19.wem</Path>
+				<File Id="639821747" Language="SFX">
+					<ShortName>SFX_Bee_Chuckle04.wav</ShortName>
+					<Path>SFX\SFX_Bee_Chuckle04_56D34C19.wem</Path>
 				</File>
-				<File Id="758032101" Language="SFX">
-					<ShortName>AMB_NPC_Accept02.wav</ShortName>
-					<Path>SFX\AMB_NPC_Accept02_56D34C19.wem</Path>
+				<File Id="682082467" Language="SFX">
+					<ShortName>SFX_Flower_Rub03.wav</ShortName>
+					<Path>SFX\SFX_Flower_Rub03_56D34C19.wem</Path>
 				</File>
-				<File Id="791359897" Language="SFX">
-					<ShortName>FS_Chameleons_Walking09.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking09_56D34C19.wem</Path>
+				<File Id="709689020" Language="SFX">
+					<ShortName>SFX_Flower_Rub08.wav</ShortName>
+					<Path>SFX\SFX_Flower_Rub08_56D34C19.wem</Path>
 				</File>
-				<File Id="910865387" Language="SFX">
-					<ShortName>SFX_Chameleon_ColorShift02.wav</ShortName>
-					<Path>SFX\SFX_Chameleon_ColorShift02_56D34C19.wem</Path>
+				<File Id="811268293" Language="SFX">
+					<ShortName>AMB_Random_Animals02.wav</ShortName>
+					<Path>SFX\AMB_Random_Animals02_56D34C19.wem</Path>
 				</File>
-				<File Id="1035627652" Language="SFX">
-					<ShortName>AMB_NPC_Accept01.wav</ShortName>
-					<Path>SFX\AMB_NPC_Accept01_56D34C19.wem</Path>
+				<File Id="818311401" Language="SFX">
+					<ShortName>SFX_Bee_Buzz.wav</ShortName>
+					<Path>SFX\SFX_Bee_Buzz_8956FC97.wem</Path>
 				</File>
-				<File Id="1044458939" Language="SFX">
-					<ShortName>FS_Chameleons_Walking06.wav</ShortName>
-					<Path>SFX\FS_Chameleons_Walking06_56D34C19.wem</Path>
+				<File Id="819113392" Language="SFX">
+					<ShortName>SFX_Bee_Chuckle02.wav</ShortName>
+					<Path>SFX\SFX_Bee_Chuckle02_56D34C19.wem</Path>
+				</File>
+				<File Id="876820385" Language="SFX">
+					<ShortName>SFX_Flower_Rub07.wav</ShortName>
+					<Path>SFX\SFX_Flower_Rub07_56D34C19.wem</Path>
+				</File>
+				<File Id="967483051" Language="SFX">
+					<ShortName>SFX_Bee_Chuckle06.wav</ShortName>
+					<Path>SFX\SFX_Bee_Chuckle06_56D34C19.wem</Path>
+				</File>
+				<File Id="982776604" Language="SFX">
+					<ShortName>SFX_Flower_Rub01.wav</ShortName>
+					<Path>SFX\SFX_Flower_Rub01_56D34C19.wem</Path>
+				</File>
+				<File Id="1004803656" Language="SFX">
+					<ShortName>AMB_Random_Animals03.wav</ShortName>
+					<Path>SFX\AMB_Random_Animals03_56D34C19.wem</Path>
+				</File>
+				<File Id="1042050020" Language="SFX">
+					<ShortName>SFX_Flower_Rub05.wav</ShortName>
+					<Path>SFX\SFX_Flower_Rub05_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

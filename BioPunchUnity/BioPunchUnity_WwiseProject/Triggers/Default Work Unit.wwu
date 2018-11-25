@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9D761905-527B-4D50-8AEA-D3A95325FE4F}" SchemaVersion="89">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{9D761905-527B-4D50-8AEA-D3A95325FE4F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9D761905-527B-4D50-8AEA-D3A95325FE4F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Breed1" ID="{AE5004D4-9BAF-4A2D-BC07-3D513098154B}"/>
+				<Trigger Name="Breed2" ID="{16ED449E-01CC-43B4-ADC3-4B8032F3BFB8}"/>
+				<Trigger Name="Breed3" ID="{5452A9CC-99BD-4CC2-B9F7-47B4D836CB32}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F80DB2A8-2B3A-4ACA-A4E5-6CC1F4557239}" SchemaVersion="89">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{F80DB2A8-2B3A-4ACA-A4E5-6CC1F4557239}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F80DB2A8-2B3A-4ACA-A4E5-6CC1F4557239}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Game_Intensity" ID="{49B2A9CB-3A6C-4DB6-A60E-C4EB398C830D}">
+					<ChildrenList>
+						<State Name="None" ID="{6787841C-A342-47ED-9A42-358AF0C9C5D3}"/>
+						<State Name="Layer1" ID="{348871A2-8036-467A-B736-E017E0302187}"/>
+						<State Name="Layer2" ID="{7871EF93-5FD4-4D80-868F-DA64BE146887}"/>
+						<State Name="Layer3" ID="{C36BEC93-23AA-45DD-8294-E2CCE6BF0C3D}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

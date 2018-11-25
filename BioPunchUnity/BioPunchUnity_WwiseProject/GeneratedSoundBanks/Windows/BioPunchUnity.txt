@@ -1,35 +1,64 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2385628198	Footsteps			\Default Work Unit\Footsteps	
-	3228142023	ColourShift			\Default Work Unit\ColourShift	
-	3991942870	Music			\Default Work Unit\Music	
+	378653913	AMB_Level_Start			\Default Work Unit\AMB_Level_Start	
+	445604206	MUS_Layer2			\Default Work Unit\MUS_Layer2	
+	445604207	MUS_Layer3			\Default Work Unit\MUS_Layer3	
+	664649349	SFX_Bee_Buzz			\Default Work Unit\SFX_Bee_Buzz	
+	1416159775	SFX_Bee_Twerk			\Default Work Unit\SFX_Bee_Twerk	
+	2001778080	SFX_Flower_Breed1			\Default Work Unit\SFX_Flower_Breed1	
+	2001778082	SFX_Flower_Breed3			\Default Work Unit\SFX_Flower_Breed3	
+	2001778083	SFX_Flower_Breed2			\Default Work Unit\SFX_Flower_Breed2	
+	3242134711	SFX_Crossbreed_Success			\Default Work Unit\SFX_Crossbreed_Success	
+	3725903807	Music_Start			\Default Work Unit\Music_Start	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3469768597	Game_Intensity			\Default Work Unit\Game_Intensity	
+
+State	ID	Name	State Group			Notes
+	0	None	Game_Intensity			
+	3298531297	Layer1	Game_Intensity			
+	3298531298	Layer2	Game_Intensity			
+	3298531299	Layer3	Game_Intensity			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3034937204	Fly_Speed			\Default Work Unit\Fly_Speed	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	789210892	Breed3			\Default Work Unit\Breed3	
+	789210893	Breed2			\Default Work Unit\Breed2	
+	789210894	Breed1			\Default Work Unit\Breed1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	4122415	SFX_Chameleon_ColorShift07	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Chameleon_ColorShift07_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ColourShift_Chameleon\SFX_Chameleon_ColorShift07		308764
-	18710268	MUS_Blend-In_Funk	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\MUS_Blend-In_Funk_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MUS_Blend-In_Funk\MUS_Blend-In_Funk		39079448
-	50455860	AMB_NPC_Mumble	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_NPC_Mumble_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_NPC_Mumble		3880864
-	51696946	FS_Chameleons_Walking08	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking08_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking08		13650
-	78156934	FS_Chameleons_Walking02	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking02		18028
-	93159753	FS_Chameleons_Walking03	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking03		21522
-	103503168	FS_Chameleons_Walking10	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking10		18992
-	131592292	SFX_Emoji_Pop01	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Emoji_Pop01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Emoji_Pop01		352864
-	150776606	SFX_Chameleon_ColorShift06	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Chameleon_ColorShift06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ColourShift_Chameleon\SFX_Chameleon_ColorShift06		308764
-	152352232	SFX_Chameleon_ColorShift05	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Chameleon_ColorShift05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ColourShift_Chameleon\SFX_Chameleon_ColorShift05		308764
-	224997968	SFX_Chameleon_ColorShift03	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Chameleon_ColorShift03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ColourShift_Chameleon\SFX_Chameleon_ColorShift03		264664
-	265921921	FS_Chameleons_Walking07	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking07_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking07		18218
-	293927906	SFX_Emoji_Pop03	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Emoji_Pop03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Emoji_Pop03		132364
-	335452880	FS_Chameleons_Walking05	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking05		16280
-	424028071	AMB_NPC_Negate01	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_NPC_Negate01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_NPC_Negate01		390772
-	492055431	SFX_Chameleons_DabHits	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Chameleons_DabHits_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Chameleons_DabHits		264664
-	514647141	SFX_Chameleon_ColorShift01	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Chameleon_ColorShift01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ColourShift_Chameleon\SFX_Chameleon_ColorShift01		242922
-	681007080	FS_Chameleons_Walking04	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking04		18610
-	693074478	SFX_Chameleon_ColorShift04	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Chameleon_ColorShift04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ColourShift_Chameleon\SFX_Chameleon_ColorShift04		308764
-	699905247	FS_Chameleons_Walking01	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking01		11516
-	701284468	AMB_NPC_Negate02	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_NPC_Negate02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_NPC_Negate02		399484
-	742745470	SFX_Chameleon_ColorShift08	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Chameleon_ColorShift08_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ColourShift_Chameleon\SFX_Chameleon_ColorShift08		264664
-	755222402	SFX_Emoji_Pop02	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Emoji_Pop02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Emoji_Pop02		176464
-	758032101	AMB_NPC_Accept02	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_NPC_Accept02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_NPC_Accept02		441064
-	791359897	FS_Chameleons_Walking09	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking09_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking09		19524
-	910865387	SFX_Chameleon_ColorShift02	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Chameleon_ColorShift02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_ColourShift_Chameleon\SFX_Chameleon_ColorShift02		263936
-	1035627652	AMB_NPC_Accept01	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_NPC_Accept01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_NPC_Accept01		441064
-	1044458939	FS_Chameleons_Walking06	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\FS_Chameleons_Walking06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Footsteps_Chameleon\FS_Chameleons_Walking06		16512
+	25028117	SFX_Flower_Breed3	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Breed3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Flower_Breed3\SFX_Flower_Breed3		239432
+	50920040	SFX_Flower_Rub09	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Rub09_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Rub\SFX_Flower_Rub09		189674
+	54607862	SFX_Flower_Rub06	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Rub06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Rub\SFX_Flower_Rub06		249914
+	58267274	AMB_Wind&birds_Gentle	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_Wind&birds_Gentle_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Level_Prairie\AMB_Wind&birds_Gentle		11904064
+	58736859	SFX_Flower_Rub02	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Rub02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Rub\SFX_Flower_Rub02		257954
+	120431732	MUS_Level_Layer2_32bars_150BPM	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\MUS_Level_Layer2_32bars_150BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Level\MUS_Level_Layer2\MUS_Level_Layer2_32bars_150BPM\MUS_Level_Layer2_32bars_150BPM		9830464
+	128236894	MUS_Level_Layer3_32bars_175BPM	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\MUS_Level_Layer3_32bars_175BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Level\MUS_Level_Layer3\MUS_Level_Layer3_32bars_175BPM\MUS_Level_Layer3_32bars_175BPM		8426120
+	157619996	AMB_Random_Animals06	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_Random_Animals06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Level_Prairie\Randon_Animals\AMB_Random_Animals06		149756
+	169947032	AMB_Random_Animals07	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_Random_Animals07_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Level_Prairie\Randon_Animals\AMB_Random_Animals07		126766
+	172965776	SFX_Flower_Breed1	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Breed1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Flower_Breed1\SFX_Flower_Breed1		239432
+	233792998	SFX_Flower_Crossbreed	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Crossbreed_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Flower_Crossbreed		288258
+	260129506	MUS_Level_Layer1_36bars_4BarsPR_125BPM	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\MUS_Level_Layer1_36bars_4BarsPR_125BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MUS_Level\MUS_Level_Layer1\MUS_Level_Layer1_36bars_4BarsPR_125BPM\MUS_Level_Layer1_36bars_4BarsPR_125BPM		14008384
+	272081647	AMB_Random_Animals04	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_Random_Animals04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Level_Prairie\Randon_Animals\AMB_Random_Animals04		351954
+	344809427	AMB_Random_Animals05	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_Random_Animals05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Level_Prairie\Randon_Animals\AMB_Random_Animals05		189578
+	381071406	SFX_Flower_Rub04	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Rub04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Rub\SFX_Flower_Rub04		240064
+	390147179	SFX_Bee_Chuckle03	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Bee_Chuckle03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Chuckles\SFX_Bee_Chuckle03		71768
+	411896106	SFX_Flower_Breed2	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Breed2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Stingers\SFX_Flower_Breed2\SFX_Flower_Breed2		239432
+	415455760	AMB_Random_Animals08	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_Random_Animals08_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Level_Prairie\Randon_Animals\AMB_Random_Animals08		116800
+	517679363	SFX_Bee_Chuckle01	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Bee_Chuckle01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Chuckles\SFX_Bee_Chuckle01		71926
+	523721530	AMB_Random_Animals01	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_Random_Animals01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Level_Prairie\Randon_Animals\AMB_Random_Animals01		183664
+	526472990	SFX_Bee_Chuckle05	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Bee_Chuckle05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Chuckles\SFX_Bee_Chuckle05		96064
+	578805507	SFX_Bee_Chuckle07	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Bee_Chuckle07_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Chuckles\SFX_Bee_Chuckle07		69380
+	639821747	SFX_Bee_Chuckle04	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Bee_Chuckle04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Chuckles\SFX_Bee_Chuckle04		78504
+	682082467	SFX_Flower_Rub03	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Rub03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Rub\SFX_Flower_Rub03		276012
+	709689020	SFX_Flower_Rub08	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Rub08_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Rub\SFX_Flower_Rub08		288064
+	811268293	AMB_Random_Animals02	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_Random_Animals02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Level_Prairie\Randon_Animals\AMB_Random_Animals02		128198
+	818311401	SFX_Bee_Buzz	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Bee_Buzz_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Buzz		3936064
+	819113392	SFX_Bee_Chuckle02	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Bee_Chuckle02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Chuckles\SFX_Bee_Chuckle02		70094
+	876820385	SFX_Flower_Rub07	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Rub07_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Rub\SFX_Flower_Rub07		241962
+	967483051	SFX_Bee_Chuckle06	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Bee_Chuckle06_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Chuckles\SFX_Bee_Chuckle06		123504
+	982776604	SFX_Flower_Rub01	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Rub01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Rub\SFX_Flower_Rub01		288064
+	1004803656	AMB_Random_Animals03	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\AMB_Random_Animals03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB_Level_Prairie\Randon_Animals\AMB_Random_Animals03		138190
+	1042050020	SFX_Flower_Rub05	C:\Users\jeang\Documents\biopunchteam_02\BioPunchUnity\BioPunchUnity_WwiseProject\.cache\Windows\SFX\SFX_Flower_Rub05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Bee_Rub\Rub\SFX_Flower_Rub05		192064
 
