@@ -9,7 +9,7 @@ public class FlowerController : MonoBehaviour
 
     private List<System.String> dnaChain;
     private System.String PlantCrossedName;
-    private float cDefaultPlantLife = 15.0f;
+    private float cDefaultPlantLife = 5.0f;
     private float plantLife = 0.0f;
     private float plantLifeLossOverTime = 1.0f;
 
@@ -126,19 +126,37 @@ public class FlowerController : MonoBehaviour
 
     void DowngradePlant()
     {
-        //if (rend)
-        //{
-        //    rend.material = CrossPollenMaterials[DnaChainLength() - 1];
-        //}
-        ////if (filter)
+        ////if (rend)
         ////{
-        ////    filter.mesh = CrossPollenMeshes[DnaChainLength() - 1];
+        ////    rend.material = CrossPollenMaterials[DnaChainLength() - 1];
         ////}
-        //Instantiate(CrossPollenPrefabs[DnaChainLength() - 1]);
+        //////if (filter)
+        //////{
+        //////    filter.mesh = CrossPollenMeshes[DnaChainLength() - 1];
+        //////}
+        ////Instantiate(CrossPollenPrefabs[DnaChainLength() - 1]);
 
-        Instantiate(CrossPollenPrefabs[DnaChainLength() - 1], this.transform.position, this.transform.rotation);
-        var newprefab = Instantiate(CrossPollenPrefabs[DnaChainLength() - 1], transform.position, transform.rotation);
+        //Instantiate(CrossPollenPrefabs[DnaChainLength() - 1], this.transform.position, this.transform.rotation);
+        //var newprefab = Instantiate(CrossPollenPrefabs[DnaChainLength() - 1], transform.position, transform.rotation);
+        //newprefab.transform.parent = transform;
+
+        ClearChildren();
+
+        var pos = this.transform.position;
+        //var rot = this.transform.rotation;
+
+        //Instantiate(CrossPollenPrefabs[DnaChainLength() - 1], pos, this.transform.rotation);
+        //var newprefab = Instantiate(CrossPollenPrefabs[DnaChainLength() - 1], transform.position, transform.rotation);
+        GameObject newprefab = Instantiate(CrossPollenPrefabs[DnaChainLength() - 1], pos, Quaternion.identity) as GameObject;
+
         newprefab.transform.parent = transform;
+
+        //newprefab.transform.localScale = this.transform.localScale;
+        newprefab.transform.localScale = new Vector3(5.0f, 5.0f, 5.0f);
+        newprefab.transform.eulerAngles = new Vector3(-90f, 0f, 0f);
+
+        FlowerMaterialSetter matSetter = GetComponentInChildren<FlowerMaterialSetter>();
+        matSetter.PetalMaterial = CrossPollenMaterials[DnaChainLength() - 1];
     }
 
     void ResetPlantLife()
