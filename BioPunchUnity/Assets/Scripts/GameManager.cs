@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
     public float delayPoints = 3f;
     public float[] SectionsZoomValues;
     public float[] NextSectionScoreValues;
+    public UIManager uiManager;
 
     public int currentSection = 0;
     public int currentScore = 0;
@@ -17,6 +18,9 @@ public class GameManager : MonoBehaviour {
 
     public bool isGameStarted = false;
     public float pointsNextTimeStamp = 0;
+
+    private List<System.String> listDifferentType;
+    private List<int> listNbrEachTypes;
 
     CameraController cameraController;
 
@@ -28,6 +32,9 @@ public class GameManager : MonoBehaviour {
             Destroy(gameObject);
 
         cameraController = Camera.main.GetComponent<CameraController>();
+
+        listDifferentType = new List<System.String>();
+        listNbrEachTypes = new List<int>();
     }
 
     // Use this for initialization
@@ -50,19 +57,20 @@ public class GameManager : MonoBehaviour {
 
         currentTimer -= Time.deltaTime;
 
-        if(currentTimer <= 0)
-
+        if (currentTimer <= 0)
+            EndGame();
 
         if(Time.time >= pointsNextTimeStamp)
         {
             pointsNextTimeStamp = pointsNextTimeStamp + delayPoints;
         }
+
+        currentMultiplicator = listDifferentType.Count;
 	}
 
     void ChangeSection ()
     {
         ++currentSection;
-        currentTimer = 120f;
         cameraController.SetTargetZoom(GetTargetZoom());
 
         if(currentSection == 2)
@@ -93,11 +101,65 @@ public class GameManager : MonoBehaviour {
 
     void EndGame()
     {
-
+        isGameStarted = false;
+        uiManager.SetGameOverUI();
     }
 
     public void AddScore(int _score)
     {
         currentScore += _score;
+    }
+
+    public void AddFlowerSpecies(System.String _flowerName)
+    {
+        bool alreadyGotType = false;
+        int index = 0;
+
+        for (int i = 0; i < listDifferentType.Count; i++)
+        {
+            if(listDifferentType[i] == _flowerName)
+            {
+                alreadyGotType = true;
+                index = i;
+                break;
+            }
+        }
+
+        if(alreadyGotType)
+        {
+            listNbrEachTypes[index] = listNbrEachTypes[index] + 1;
+        }
+        else
+        {
+            listDifferentType.Add(_flowerName);
+            listNbrEachTypes.Add(1);
+        }
+    }
+
+    public void RemoveFlowerSpecies(System.String _flowerName)
+    {
+        bool alreadyGotType = false;
+        int index = 0;
+
+        for (int i = 0; i < listDifferentType.Count; i++)
+        {
+            if (listDifferentType[i] == _flowerName)
+            {
+                alreadyGotType = true;
+                index = i;
+                break;
+            }
+        }
+
+        if (alreadyGotType)
+        {
+            listNbrEachTypes[index] = listNbrEachTypes[index] - 1;
+
+            if(listNbrEachTypes[index] <= 0)
+            {
+                listDifferentType.RemoveAt(index);
+                listNbrEachTypes.RemoveAt(index);
+            }
+        }
     }
 }

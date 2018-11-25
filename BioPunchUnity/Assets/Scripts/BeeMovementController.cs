@@ -92,6 +92,10 @@ public class BeeMovementController : MonoBehaviour {
         {
             cursorPosition = floorHit.point;
         }
+        else
+        {
+            cursorPosition = previousMouseCursorPosition;
+        }
 
         cursorPosition.y = beeHeight;
         cursorPosition.z = cursorPosition.z - zOffset;

@@ -77,6 +77,7 @@ public class BeeController : MonoBehaviour
             SetIsHoldingPollen(true);
         }
 
+        beeAnimator.SetTrigger("Happy");
     }
 
     void DropPollen()
@@ -161,6 +162,7 @@ public class BeeController : MonoBehaviour
         _pushPosition.y = beeMovementController.beeHeight;
         DropPollen();
         rBody.AddForce((transform.position - _pushPosition).normalized * _force, ForceMode.Impulse);
+        beeAnimator.SetTrigger("Hurt");
         StartCoroutine(Stun());
     }
 

@@ -8,6 +8,8 @@ public class UIManager : MonoBehaviour {
     public Text ScoreText;
     public Text TimerText;
     public Text MultiplicatorText;
+    public Text GameOverText;
+    public Text GameOverScoreText;
 
 	// Use this for initialization
 	void Start () {
@@ -34,5 +36,9 @@ public class UIManager : MonoBehaviour {
         ScoreText.enabled = false;
         TimerText.enabled = false;
         MultiplicatorText.enabled = false;
+
+        GameOverText.enabled = true;
+        GameOverScoreText.enabled = true;
+        GameOverScoreText.text = "Score: " + GameManager.instance.currentScore;
     }
 }
