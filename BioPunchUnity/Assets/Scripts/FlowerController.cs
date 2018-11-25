@@ -13,6 +13,13 @@ public class FlowerController : MonoBehaviour
     private float plantLife = 0.0f;
     private float plantLifeLossOverTime = 1.0f;
 
+    public Material material1;
+    public Material material2;
+    private Renderer rend;
+    public Mesh mesh1;
+    public Mesh mesh2;
+    private MeshFilter filter;
+
 
     public int flowerSection = 1;
     public int nbrShakeForPollen = 10;
@@ -29,7 +36,9 @@ public class FlowerController : MonoBehaviour
         PlantCrossedName = PlantName;
         plantUniqueId = System.Guid.NewGuid();
         Debug.Log("PlantId:" + plantUniqueId.ToString());
-
+        rend = GetComponentInChildren<Renderer>();
+        rend.material = material1;
+        filter = GetComponentInChildren<MeshFilter>();
     }
 
     // The longer the Chain, the more POINTS! 
@@ -59,12 +68,44 @@ public class FlowerController : MonoBehaviour
 
     void UpgradePlant()
     {
-        //var currentPos = gameObject.transform.position;
-        //currentPos.y += 2.0f;
-        //gameObject.transform.position = currentPos;
-        var currentScale = gameObject.transform.localScale;
-        currentScale.x += 2.0f;
-        gameObject.transform.localScale = currentScale;
+        if(rend)
+        { 
+            if(DnaChainLength() == 2)
+                rend.material = material2;
+            else if(filter && DnaChainLength() == 3)
+            {
+                filter.mesh = mesh2;
+            }
+        }
+
+        ////var currentPos = gameObject.transform.position;
+        ////currentPos.y += 2.0f;
+        ////gameObject.transform.position = currentPos;
+        //var currentScale = gameObject.transform.localScale;
+        //currentScale.x += 2.0f;
+        //gameObject.transform.localScale = currentScale;
+
+
+        ////Mesh mesh = GetComponent<MeshFilter>().mesh;
+        ////Vector3[] vertices = mesh.vertices;
+
+        ////// create new colors array where the colors will be created.
+        ////Color[] colors = new Color[vertices.Length];
+
+        ////for (int i = 0; i < vertices.Length; i++)
+        ////    colors[i] = Color.Lerp(Color.red, Color.green, vertices[i].y);
+
+        ////// assign the array of colors to the Mesh.
+        ////mesh.colors = colors;
+
+        ////Fetch the Renderer from the GameObject
+        ////Renderer rend = GetComponent<Renderer>();
+
+        ////Set the main Color of the Material to green
+        ////rend.material.shader = Shader.Find("_Albedo");
+        ////rend.material.SetColor("_Albedo", Color.green);
+
+
     }
 
     void DowngradePlant()
@@ -72,6 +113,8 @@ public class FlowerController : MonoBehaviour
         var currentScale = gameObject.transform.localScale;
         currentScale.x = 1.0f;
         gameObject.transform.localScale = currentScale;
+
+        rend.material = material1;
     }
 
     void ResetPlantLife()
