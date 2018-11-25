@@ -109,13 +109,17 @@ public class FlowerController : MonoBehaviour
         newprefab.transform.eulerAngles = new Vector3(-90f, 0f, 0f);
 
         FlowerMaterialSetter matSetter = GetComponentInChildren<FlowerMaterialSetter>();
-        if(dnaChain.Contains("Rose"))
+        if(dnaChain[dnaChain.Count -1] == "Rose")
         { 
             matSetter.PetalMaterial = CrossPollenMaterials[2];
         }
-        else if (dnaChain.Contains("Bleuet"))
+        else if (dnaChain[dnaChain.Count - 1] == "Bleuet")
         {
             matSetter.PetalMaterial = CrossPollenMaterials[0];
+        }
+        else if (dnaChain[dnaChain.Count - 1] == "Marguerite" && CrossPollenMaterials.Length > 2 )
+        {
+            matSetter.PetalMaterial = CrossPollenMaterials[3];
         }
         else
         {
