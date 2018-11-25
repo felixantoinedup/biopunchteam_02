@@ -6,6 +6,7 @@
 				<Trigger Name="Breed1" ID="{AE5004D4-9BAF-4A2D-BC07-3D513098154B}"/>
 				<Trigger Name="Breed2" ID="{16ED449E-01CC-43B4-ADC3-4B8032F3BFB8}"/>
 				<Trigger Name="Breed3" ID="{5452A9CC-99BD-4CC2-B9F7-47B4D836CB32}"/>
+				<Trigger Name="Reggeaton" ID="{56E7271C-A6EE-4F98-A3B5-BEAD4125616C}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Triggers>

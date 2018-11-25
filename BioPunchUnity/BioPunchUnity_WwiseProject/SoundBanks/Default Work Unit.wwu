@@ -10,6 +10,7 @@
 						<ObjectRef Name="SFX_Bee_Twerk" ID="{23F065DE-EB34-434C-8149-425F3041FB02}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MUS_Layer2" ID="{7B0F940D-CE99-4359-BBD8-B6F1B7565C42}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MUS_Layer3" ID="{3A5AA1A0-E7CA-437C-A49B-033AE18034F3}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MUS_Layer1" ID="{670FAA78-76D0-472A-9E96-8F041A3D9BBD}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_Crossbreed_Success" ID="{5D3CCCEC-B00D-47F1-A849-3FF1337712DC}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AMB_Level_Start" ID="{CAF069A5-6241-483A-B94D-A021BFF83509}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SFX_Bee_Buzz" ID="{6B43DE73-D96E-4C35-8185-AC30794F8C99}" WorkUnitID="{2B16C98E-A82E-4408-891C-4D8CE71D4390}" Filter="7" Origin="Manual"/>
