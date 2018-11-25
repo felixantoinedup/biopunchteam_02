@@ -8,6 +8,8 @@ public class UIManager : MonoBehaviour {
     public Text ScoreText;
     public Text TimerText;
     public Text MultiplicatorText;
+    public Text GameOverText;
+    public Text GameOverScoreText;
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +18,9 @@ public class UIManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (!GameManager.instance.isGameStarted)
+            return;
+
         ScoreText.text = "Score: " + GameManager.instance.currentScore;
 
         int seconds = (int)GameManager.instance.currentTimer % 60;
@@ -25,4 +30,15 @@ public class UIManager : MonoBehaviour {
 
         MultiplicatorText.text = "x" + GameManager.instance.currentMultiplicator;
 	}
+
+    public void SetGameOverUI()
+    {
+        ScoreText.enabled = false;
+        TimerText.enabled = false;
+        MultiplicatorText.enabled = false;
+
+        GameOverText.enabled = true;
+        GameOverScoreText.enabled = true;
+        GameOverScoreText.text = "Score: " + GameManager.instance.currentScore;
+    }
 }

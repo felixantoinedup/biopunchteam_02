@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_LEVEL_START = 378653913U;
+        static const AkUniqueID MUS_LAYER1 = 445604205U;
         static const AkUniqueID MUS_LAYER2 = 445604206U;
         static const AkUniqueID MUS_LAYER3 = 445604207U;
         static const AkUniqueID MUSIC_START = 3725903807U;
@@ -51,6 +52,7 @@ namespace AK
         static const AkUniqueID BREED1 = 789210894U;
         static const AkUniqueID BREED2 = 789210893U;
         static const AkUniqueID BREED3 = 789210892U;
+        static const AkUniqueID REGGEATON = 1433553965U;
     } // namespace TRIGGERS
 
     namespace BANKS
@@ -64,6 +66,8 @@ namespace AK
         static const AkUniqueID BEE_BUZZ = 1461531525U;
         static const AkUniqueID BEE_TWERK = 437129503U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID REGGEATON = 1433553965U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

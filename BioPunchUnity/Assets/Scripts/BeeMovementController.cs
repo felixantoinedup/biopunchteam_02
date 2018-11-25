@@ -9,6 +9,7 @@ public class BeeMovementController : MonoBehaviour {
     public float beeHeight = 1f;
     public float zOffset = 0f;
     public float twerkDelay = 0.15f;
+    public float distanceMaxSpeed = 20f;
     public LayerMask floorMask;
 
     float camRayLength = 100f;
@@ -38,6 +39,8 @@ public class BeeMovementController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         currentMouseCursorPosition = GetMouseCursorPosition();
+
+        beeController.SetCurrentSpeed(Mathf.Min((currentMouseCursorPosition - transform.position).magnitude, distanceMaxSpeed));
 
         if(Time.time > twerkNextTimeStamp)
         {
@@ -88,6 +91,10 @@ public class BeeMovementController : MonoBehaviour {
         if (Physics.Raycast(camRay, out floorHit, camRayLength, floorMask))
         {
             cursorPosition = floorHit.point;
+        }
+        else
+        {
+            cursorPosition = previousMouseCursorPosition;
         }
 
         cursorPosition.y = beeHeight;

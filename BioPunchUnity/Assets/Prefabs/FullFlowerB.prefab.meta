@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:BioPunchUnity/Assets/Prefabs/FullFlowerB.prefab.meta
 guid: e5b49373c29a8c949aa63dcfb3200513
 NativeFormatImporter:
+=======
+guid: 879a98200abd86543974063e68dc4bd2
+folderAsset: yes
+DefaultImporter:
+>>>>>>> master:BioPunchUnity/Assets/Particules.meta
   externalObjects: {}
   mainObjectFileID: 100100000
   userData: 

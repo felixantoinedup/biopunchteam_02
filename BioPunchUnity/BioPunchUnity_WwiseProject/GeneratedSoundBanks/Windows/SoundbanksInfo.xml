@@ -22,15 +22,16 @@
 			<Path>BioPunchUnity.bnk</Path>
 			<IncludedEvents>
 				<Event Id="378653913" Name="AMB_Level_Start" ObjectPath="\Events\Default Work Unit\AMB_Level_Start"/>
+				<Event Id="445604205" Name="MUS_Layer1" ObjectPath="\Events\Default Work Unit\MUS_Layer1" MaxAttenuation="0.000000"/>
 				<Event Id="445604206" Name="MUS_Layer2" ObjectPath="\Events\Default Work Unit\MUS_Layer2" MaxAttenuation="0.000000"/>
 				<Event Id="445604207" Name="MUS_Layer3" ObjectPath="\Events\Default Work Unit\MUS_Layer3" MaxAttenuation="0.000000"/>
 				<Event Id="3725903807" Name="Music_Start" ObjectPath="\Events\Default Work Unit\Music_Start"/>
 				<Event Id="664649349" Name="SFX_Bee_Buzz" ObjectPath="\Events\Default Work Unit\SFX_Bee_Buzz"/>
 				<Event Id="1416159775" Name="SFX_Bee_Twerk" ObjectPath="\Events\Default Work Unit\SFX_Bee_Twerk"/>
 				<Event Id="3242134711" Name="SFX_Crossbreed_Success" ObjectPath="\Events\Default Work Unit\SFX_Crossbreed_Success"/>
-				<Event Id="2001778080" Name="SFX_Flower_Breed1" ObjectPath="\Events\Default Work Unit\SFX_Flower_Breed1"/>
-				<Event Id="2001778083" Name="SFX_Flower_Breed2" ObjectPath="\Events\Default Work Unit\SFX_Flower_Breed2"/>
-				<Event Id="2001778082" Name="SFX_Flower_Breed3" ObjectPath="\Events\Default Work Unit\SFX_Flower_Breed3"/>
+				<Event Id="2001778080" Name="SFX_Flower_Breed1" ObjectPath="\Events\Default Work Unit\SFX_Flower_Breed1" MaxAttenuation="0.000000"/>
+				<Event Id="2001778083" Name="SFX_Flower_Breed2" ObjectPath="\Events\Default Work Unit\SFX_Flower_Breed2" MaxAttenuation="0.000000"/>
+				<Event Id="2001778082" Name="SFX_Flower_Breed3" ObjectPath="\Events\Default Work Unit\SFX_Flower_Breed3" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="25028117" Language="SFX">
@@ -57,10 +58,6 @@
 					<ShortName>MUS_Level_Layer2_32bars_150BPM.wav</ShortName>
 					<Path>SFX\MUS_Level_Layer2_32bars_150BPM_8956FC97.wem</Path>
 				</File>
-				<File Id="128236894" Language="SFX">
-					<ShortName>MUS_Level_Layer3_32bars_175BPM.wav</ShortName>
-					<Path>SFX\MUS_Level_Layer3_32bars_175BPM_8956FC97.wem</Path>
-				</File>
 				<File Id="157619996" Language="SFX">
 					<ShortName>AMB_Random_Animals06.wav</ShortName>
 					<Path>SFX\AMB_Random_Animals06_56D34C19.wem</Path>
@@ -77,9 +74,9 @@
 					<ShortName>SFX_Flower_Crossbreed.wav</ShortName>
 					<Path>SFX\SFX_Flower_Crossbreed_56D34C19.wem</Path>
 				</File>
-				<File Id="260129506" Language="SFX">
-					<ShortName>MUS_Level_Layer1_36bars_4BarsPR_125BPM.wav</ShortName>
-					<Path>SFX\MUS_Level_Layer1_36bars_4BarsPR_125BPM_8956FC97.wem</Path>
+				<File Id="247858817" Language="SFX">
+					<ShortName>MUS_Level_Layer3_17bars_1barTail_175BPM.wav</ShortName>
+					<Path>SFX\MUS_Level_Layer3_17bars_1barTail_175BPM_8956FC97.wem</Path>
 				</File>
 				<File Id="272081647" Language="SFX">
 					<ShortName>AMB_Random_Animals04.wav</ShortName>
@@ -105,9 +102,21 @@
 					<ShortName>AMB_Random_Animals08.wav</ShortName>
 					<Path>SFX\AMB_Random_Animals08_56D34C19.wem</Path>
 				</File>
+				<File Id="438194990" Language="SFX">
+					<ShortName>MUS_Level_Layer1_7bars_1barTail_125BPM.wav</ShortName>
+					<Path>SFX\MUS_Level_Layer1_7bars_1barTail_125BPM_8956FC97.wem</Path>
+				</File>
+				<File Id="509764536" Language="SFX">
+					<ShortName>MUS_Level_Layer1_33bars_1barTail_125BPM.wav</ShortName>
+					<Path>SFX\MUS_Level_Layer1_33bars_1barTail_125BPM_8956FC97.wem</Path>
+				</File>
 				<File Id="517679363" Language="SFX">
 					<ShortName>SFX_Bee_Chuckle01.wav</ShortName>
 					<Path>SFX\SFX_Bee_Chuckle01_56D34C19.wem</Path>
+				</File>
+				<File Id="519789080" Language="SFX">
+					<ShortName>MUS_Level_Layer2_17bars_1barTail_150BPM.wav</ShortName>
+					<Path>SFX\MUS_Level_Layer2_17bars_1barTail_150BPM_8956FC97.wem</Path>
 				</File>
 				<File Id="523721530" Language="SFX">
 					<ShortName>AMB_Random_Animals01.wav</ShortName>
@@ -133,6 +142,10 @@
 					<ShortName>SFX_Flower_Rub08.wav</ShortName>
 					<Path>SFX\SFX_Flower_Rub08_56D34C19.wem</Path>
 				</File>
+				<File Id="718560072" Language="SFX">
+					<ShortName>MUS_Level_Layer3_49bars_1barTail_175BPM.wav</ShortName>
+					<Path>SFX\MUS_Level_Layer3_49bars_1barTail_175BPM_8956FC97.wem</Path>
+				</File>
 				<File Id="811268293" Language="SFX">
 					<ShortName>AMB_Random_Animals02.wav</ShortName>
 					<Path>SFX\AMB_Random_Animals02_56D34C19.wem</Path>
@@ -149,6 +162,10 @@
 					<ShortName>SFX_Flower_Rub07.wav</ShortName>
 					<Path>SFX\SFX_Flower_Rub07_56D34C19.wem</Path>
 				</File>
+				<File Id="890310787" Language="SFX">
+					<ShortName>MUS_Bee_Reggeaton.wav</ShortName>
+					<Path>SFX\MUS_Bee_Reggeaton_8956FC97.wem</Path>
+				</File>
 				<File Id="967483051" Language="SFX">
 					<ShortName>SFX_Bee_Chuckle06.wav</ShortName>
 					<Path>SFX\SFX_Bee_Chuckle06_56D34C19.wem</Path>
@@ -156,6 +173,10 @@
 				<File Id="982776604" Language="SFX">
 					<ShortName>SFX_Flower_Rub01.wav</ShortName>
 					<Path>SFX\SFX_Flower_Rub01_56D34C19.wem</Path>
+				</File>
+				<File Id="997878162" Language="SFX">
+					<ShortName>MUS_TransitionSegment.wav</ShortName>
+					<Path>SFX\MUS_TransitionSegment_8956FC97.wem</Path>
 				</File>
 				<File Id="1004803656" Language="SFX">
 					<ShortName>AMB_Random_Animals03.wav</ShortName>
