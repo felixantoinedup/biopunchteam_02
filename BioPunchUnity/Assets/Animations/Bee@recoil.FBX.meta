@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: e204bf88eff83ad468540c103dc66eac
-=======
-<<<<<<< HEAD
-guid: a1c84da5f5386d947a3c4700a48b0b3b
-=======
-guid: 06476bb30e6027d48ada46fbab68405e
->>>>>>> master
->>>>>>> master
+guid: 76bfc8ce23276454f875fcb678977baf
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -85,11 +77,7 @@ ModelImporter:
     400068: BEE_WingBase_rt 1
     400070: BEE_WingEnd_lf
     400072: BEE_WingEnd_rt
-<<<<<<< HEAD
-    7400000: fast
-=======
     7400000: Take 001
->>>>>>> master
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -118,39 +106,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-<<<<<<< HEAD
-    clipAnimations:
-    - serializedVersion: 16
-      name: fast
-      takeName: Take 001
-      firstFrame: 80
-      lastFrame: 110
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-=======
     clipAnimations: []
->>>>>>> master
     isReadable: 1
   meshes:
     lODScreenPercentages: []
