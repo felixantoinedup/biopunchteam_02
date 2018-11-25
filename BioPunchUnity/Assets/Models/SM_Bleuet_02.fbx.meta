@@ -3,12 +3,22 @@ guid: 8682c1c537552ab45bec004e8f6db44a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: Middle
+    100002: Petales
+    100004: //RootNode
+    400000: Middle
+    400002: Petales
+    400004: //RootNode
     2100000: 'Material #44'
-    2300000: //RootNode
-    3300000: //RootNode
+    2300000: Middle
+    2300002: Petales
+    2300004: //RootNode
+    3300000: Middle
+    3300002: Petales
+    3300004: //RootNode
     4300000: SM_Bleuet_02
+    4300002: Petales
+    4300004: Middle
   externalObjects: {}
   materials:
     importMaterials: 1

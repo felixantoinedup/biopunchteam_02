@@ -3,12 +3,27 @@ guid: e42a23d7e41138241a1330bdc71c5be9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: Center
+    100002: Middle
+    100004: Petales
+    100006: //RootNode
+    400000: Center
+    400002: Middle
+    400004: Petales
+    400006: //RootNode
     2100000: 'Material #44'
-    2300000: //RootNode
-    3300000: //RootNode
+    2300000: Center
+    2300002: Middle
+    2300004: Petales
+    2300006: //RootNode
+    3300000: Center
+    3300002: Middle
+    3300004: Petales
+    3300006: //RootNode
     4300000: SM_Marguerite_03
+    4300002: Petales
+    4300004: Middle
+    4300006: Center
   externalObjects: {}
   materials:
     importMaterials: 1
