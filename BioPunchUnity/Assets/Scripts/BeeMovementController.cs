@@ -17,7 +17,8 @@ public class BeeMovementController : MonoBehaviour {
     float twerkNextTimeStamp = 0;
 
     BeeController beeController;
-    Rigidbody rBody;
+
+    bool isMovementDisable = false;
 
     Vector3 velocity = Vector3.zero;
 
@@ -27,7 +28,6 @@ public class BeeMovementController : MonoBehaviour {
         previousMouseCursorPosition = new Vector3(0, 0, 0);
 
         beeController = GetComponent<BeeController>();
-        rBody = GetComponent<Rigidbody>();
     }
 
     // Use this for initialization
@@ -46,8 +46,11 @@ public class BeeMovementController : MonoBehaviour {
 
         if(!CheckIfTwerking())
         {
-            MoveTorwardsCursor();
-            RotateTorwardsCursor();
+            if(!isMovementDisable)
+            {
+                MoveTorwardsCursor();
+                RotateTorwardsCursor();
+            }
 
             beeController.SetIsTwerking(false);
         }
@@ -122,5 +125,10 @@ public class BeeMovementController : MonoBehaviour {
     bool sameSign(float num1, float num2)
     {
         return num1 >= 0 && num2 >= 0 || num1 < 0 && num2 < 0;
-}
+    }
+
+    public void SetDisableMovement(bool _isDisable)
+    {
+        isMovementDisable = _isDisable;
+    }
 }

@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour {
     public int currentSection = 0;
     public int currentScore = 0;
     public float currentTimer = 0;
+    public int currentMultiplicator = 1;
 
     public bool isGameStarted = false;
     public float pointsNextTimeStamp = 0;

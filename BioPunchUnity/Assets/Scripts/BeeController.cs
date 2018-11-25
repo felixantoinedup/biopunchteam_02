@@ -5,6 +5,7 @@ using UnityEngine;
 public class BeeController : MonoBehaviour
 {
     public int minimumShakesToTwerk = 3;
+    public float durationStun = 1f;
     public GameObject pollen;
 
     FlowerController currentFlower = null;
@@ -13,6 +14,15 @@ public class BeeController : MonoBehaviour
 
     bool isTwerking = false;
     bool isHoldingPollen = false;
+
+    BeeMovementController beeMovementController;
+    Rigidbody rBody;
+
+    private void Awake()
+    {
+        beeMovementController = GetComponent<BeeMovementController>();
+        rBody = GetComponent<Rigidbody>();
+    }
 
     // Use this for initialization
     void Start()
@@ -60,6 +70,13 @@ public class BeeController : MonoBehaviour
             SetIsHoldingPollen(true);
         }
 
+    }
+
+    void DropPollen()
+    {
+        pollen.SetActive(false);
+        flowerWhoGavePollen = null;
+        SetIsHoldingPollen(false);
     }
 
     public FlowerController GetCurrentFlower()
@@ -124,5 +141,21 @@ public class BeeController : MonoBehaviour
     public void SetIsHoldingPollen(bool _isHoldingPollen)
     {
         isHoldingPollen = _isHoldingPollen;
+    }
+
+    public void PushBee(Vector3 _pushPosition, float _force)
+    {
+        _pushPosition.y = beeMovementController.beeHeight;
+        DropPollen();
+        rBody.AddForce((transform.position - _pushPosition).normalized * _force, ForceMode.Impulse);
+        StartCoroutine(Stun());
+    }
+
+    IEnumerator Stun()
+    {
+        beeMovementController.SetDisableMovement(true);
+        yield return new WaitForSeconds(durationStun);
+        rBody.velocity = new Vector3(0, 0, 0);
+        beeMovementController.SetDisableMovement(false);
     }
 }
