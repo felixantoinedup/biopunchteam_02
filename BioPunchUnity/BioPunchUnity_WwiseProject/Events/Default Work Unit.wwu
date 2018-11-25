@@ -69,6 +69,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{DAA4D681-945B-4B18-8567-348AF4BA739F}" ShortID="559518452">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reggeaton" ID="{56E7271C-A6EE-4F98-A3B5-BEAD4125616C}" WorkUnitID="{9D761905-527B-4D50-8AEA-D3A95325FE4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="SFX_Crossbreed_Success" ID="{5D3CCCEC-B00D-47F1-A849-3FF1337712DC}">
@@ -89,11 +99,11 @@
 					<ChildrenList>
 						<Action Name="" ID="{A783B846-D533-4069-BC1D-6549317EE4BA}" ShortID="925798771">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="35"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Flower_Breed1" ID="{07DDF214-BF4F-4670-B9FC-51172D4013D4}" WorkUnitID="{CBCC3F8E-82B8-4D63-BB68-95F5678A9789}"/>
+									<ObjectRef Name="Breed1" ID="{AE5004D4-9BAF-4A2D-BC07-3D513098154B}" WorkUnitID="{9D761905-527B-4D50-8AEA-D3A95325FE4F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -103,11 +113,11 @@
 					<ChildrenList>
 						<Action Name="" ID="{4E6C4E42-5390-463C-B784-3353954D661C}" ShortID="744313037">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="35"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Flower_Breed2" ID="{86C7191F-1A35-486F-A3D2-BE44B2648CA6}" WorkUnitID="{CBCC3F8E-82B8-4D63-BB68-95F5678A9789}"/>
+									<ObjectRef Name="Breed2" ID="{16ED449E-01CC-43B4-ADC3-4B8032F3BFB8}" WorkUnitID="{9D761905-527B-4D50-8AEA-D3A95325FE4F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -117,11 +127,11 @@
 					<ChildrenList>
 						<Action Name="" ID="{55F31F4F-C43C-48BA-ADD1-150F31D86D60}" ShortID="103639336">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="35"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Flower_Breed3" ID="{359048BB-A27C-4424-A251-1B14C14DD93F}" WorkUnitID="{CBCC3F8E-82B8-4D63-BB68-95F5678A9789}"/>
+									<ObjectRef Name="Breed3" ID="{5452A9CC-99BD-4CC2-B9F7-47B4D836CB32}" WorkUnitID="{9D761905-527B-4D50-8AEA-D3A95325FE4F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -150,6 +160,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Layer3" ID="{C36BEC93-23AA-45DD-8294-E2CCE6BF0C3D}" WorkUnitID="{F80DB2A8-2B3A-4ACA-A4E5-6CC1F4557239}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MUS_Layer1" ID="{670FAA78-76D0-472A-9E96-8F041A3D9BBD}">
+					<ChildrenList>
+						<Action Name="" ID="{7F15AEBF-72A9-4240-AEC1-FCDCDB28CB8F}" ShortID="939006637">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Layer1" ID="{348871A2-8036-467A-B736-E017E0302187}" WorkUnitID="{F80DB2A8-2B3A-4ACA-A4E5-6CC1F4557239}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

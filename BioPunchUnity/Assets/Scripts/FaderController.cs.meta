@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:BioPunchUnity/Assets/Scripts/FaderController.cs.meta
 guid: 405e4fe871d346f4e850b16d011cf8ae
 MonoImporter:
+=======
+guid: 16e22f3769fad7d43ac66d8333a45526
+folderAsset: yes
+DefaultImporter:
+>>>>>>> master:BioPunchUnity/Assets/Particules.meta
   externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
