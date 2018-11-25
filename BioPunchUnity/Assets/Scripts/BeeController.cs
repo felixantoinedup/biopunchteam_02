@@ -47,6 +47,9 @@ public class BeeController : MonoBehaviour
         if (GetIsHoldingPollen())
         {
             pollen.SetActive(false);
+            //flowerWhoGavePollen.MixPollen(currentFlower);
+            currentFlower.MixPollen(flowerWhoGavePollen);
+            currentFlower = null;
             flowerWhoGavePollen = null;
             SetIsHoldingPollen(false);
         }
