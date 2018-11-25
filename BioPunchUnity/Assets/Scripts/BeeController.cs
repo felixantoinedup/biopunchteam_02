@@ -12,6 +12,7 @@ public class BeeController : MonoBehaviour
     FlowerController currentFlower = null;
     FlowerController flowerWhoGavePollen = null;
     int currentNbrShakes = 0;
+    float currentBeeSpeed = 0;
 
     bool isTwerking = false;
     bool isHoldingPollen = false;
@@ -36,6 +37,9 @@ public class BeeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        beeAnimator.SetFloat("Speed", currentBeeSpeed/beeMovementController.distanceMaxSpeed);
+        AkSoundEngine.SetRTPCValue("Fly_speed", (currentBeeSpeed / beeMovementController.distanceMaxSpeed) * 100);
+
         if (CheckIfEnoughForPollen())
         {
             PollenContextualAction();
@@ -145,6 +149,11 @@ public class BeeController : MonoBehaviour
     public void SetIsHoldingPollen(bool _isHoldingPollen)
     {
         isHoldingPollen = _isHoldingPollen;
+    }
+
+    public void SetCurrentSpeed(float _speed)
+    {
+        currentBeeSpeed = _speed;
     }
 
     public void PushBee(Vector3 _pushPosition, float _force)

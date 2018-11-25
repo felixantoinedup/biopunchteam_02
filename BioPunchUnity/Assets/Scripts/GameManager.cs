@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
 
     public float delayPoints = 3f;
     public float[] SectionsZoomValues;
+    public float[] NextSectionScoreValues;
 
     public int currentSection = 0;
     public int currentScore = 0;
@@ -39,7 +40,18 @@ public class GameManager : MonoBehaviour {
         if (!isGameStarted)
             return;
 
+        if(currentSection <= NextSectionScoreValues.Length && currentSection > 0)
+        {
+            if(currentScore >= NextSectionScoreValues[currentSection - 1])
+            {
+                ChangeSection();
+            }
+        }
+
         currentTimer -= Time.deltaTime;
+
+        if(currentTimer <= 0)
+
 
         if(Time.time >= pointsNextTimeStamp)
         {
@@ -52,6 +64,11 @@ public class GameManager : MonoBehaviour {
         ++currentSection;
         currentTimer = 120f;
         cameraController.SetTargetZoom(GetTargetZoom());
+
+        if(currentSection == 2)
+        {
+            AkSoundEngine.PostEvent("MUS_Layer2", gameObject);
+        }
     }
 
     float GetTargetZoom()
@@ -72,6 +89,11 @@ public class GameManager : MonoBehaviour {
         AkSoundEngine.PostEvent("Music_Start", gameObject);
         AkSoundEngine.PostEvent("AMB_Level_Start", gameObject);
         AkSoundEngine.PostEvent("SFX_Bee_Buzz", gameObject);
+    }
+
+    void EndGame()
+    {
+
     }
 
     public void AddScore(int _score)
