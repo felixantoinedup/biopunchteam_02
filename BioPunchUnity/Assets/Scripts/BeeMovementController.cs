@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BeeMovementController : MonoBehaviour {
 
+    public float bestValueInTheWorld = 0.5f;
     public float beeSpeed = 0.3f;
     public float beeRotationSpeed = 1f;
     public float beeHeight = 1f;
@@ -22,6 +23,8 @@ public class BeeMovementController : MonoBehaviour {
     bool isMovementDisable = false;
 
     Vector3 velocity = Vector3.zero;
+    Vector3 currentDirection = Vector3.zero;
+    Vector3 previousDirection = Vector3.zero;
 
     private void Awake()
     {
@@ -114,14 +117,35 @@ public class BeeMovementController : MonoBehaviour {
                 return false;
         }
 
-        float currentX = currentMouseCursorPosition.x - transform.position.x;
-        float previousX = previousMouseCursorPosition.x - transform.position.x;
+        currentDirection = currentMouseCursorPosition - previousMouseCursorPosition;
 
-        if (!sameSign(currentX, previousX))
+        Vector2 current2D = new Vector2(currentDirection.x, currentDirection.z);
+        Vector2 previous2D = new Vector2(previousDirection.x, previousDirection.z);
+        current2D.Normalize();
+        previous2D.Normalize();
+
+        float dotValue = Vector2.Dot(current2D, previous2D);
+        Debug.Log(dotValue);
+
+        if (currentDirection.sqrMagnitude == 0)
+            return false;
+
+        previousDirection = currentDirection;
+
+        if (dotValue <= bestValueInTheWorld)
         {
             beeController.IncreaseShakes();
             twerkNextTimeStamp = Time.time + twerkDelay;
         }
+
+        //float currentX = currentMouseCursorPosition.x - transform.position.x;
+        //float previousX = previousMouseCursorPosition.x - transform.position.x;
+
+        //if (!sameSign(currentX, previousX))
+        //{
+        //    beeController.IncreaseShakes();
+        //    twerkNextTimeStamp = Time.time + twerkDelay;
+        //}
 
         if (!beeController.IsEnoughShakeToTwerk())
             return false;

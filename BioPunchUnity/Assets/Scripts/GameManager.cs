@@ -107,7 +107,7 @@ public class GameManager : MonoBehaviour {
 
     public void AddScore(int _score)
     {
-        currentScore += _score;
+        currentScore += (_score * currentMultiplicator);
     }
 
     public void AddFlowerSpecies(System.String _flowerName)

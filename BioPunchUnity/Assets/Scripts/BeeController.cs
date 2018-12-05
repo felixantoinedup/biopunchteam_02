@@ -139,7 +139,7 @@ public class BeeController : MonoBehaviour
     public void SetIsTwerking(bool _isTwerking)
     {
         isTwerking = _isTwerking;
-        //beeAnimator.SetBool("IsTwerking", isTwerking);
+        beeAnimator.SetBool("IsTwerking", isTwerking);
     }
 
     public bool GetIsHoldingPollen()

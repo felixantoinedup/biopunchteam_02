@@ -9,7 +9,7 @@ public class FlowerController : MonoBehaviour
 
     private List<System.String> dnaChain;
     private System.String PlantCrossedName;
-    private float cDefaultPlantLife = 30.0f;
+    private float cDefaultPlantLife = 25.0f;
     private float plantLife = 0.0f;
     private float plantLifeLossOverTime = 1.0f;
 
@@ -72,6 +72,7 @@ public class FlowerController : MonoBehaviour
             PlantCrossedName += other.PlantName;
             Debug.Log("Mix Pollen Dna chain: " + DnaChainLength().ToString() + " Full plant name: " + PlantCrossedName);
             UpgradePlant();
+            GameManager.instance.AddFlowerSpecies(PlantCrossedName);
         }
         else if (other.plantUniqueId != this.plantUniqueId)
         {
@@ -192,7 +193,6 @@ public class FlowerController : MonoBehaviour
     void ResetPlantLife()
     {
         plantLife = cDefaultPlantLife;
-
     }
 
     // Update is called once per frame
@@ -204,6 +204,7 @@ public class FlowerController : MonoBehaviour
             {
                 isFlowerActive = true;
                 pointsNextTimeStamp = GameManager.instance.pointsNextTimeStamp;
+                GameManager.instance.AddFlowerSpecies(PlantName);
             }
             else
             {
@@ -213,7 +214,7 @@ public class FlowerController : MonoBehaviour
 
         if(pointsNextTimeStamp != GameManager.instance.pointsNextTimeStamp)
 
-        if(GameManager.instance.isGameStarted && Time.time > pointsNextTimeStamp)
+        if(isFlowerActive && GameManager.instance.isGameStarted && Time.time > pointsNextTimeStamp)
         {
             pointsNextTimeStamp = pointsNextTimeStamp + GameManager.instance.delayPoints;
             GivePoints();
@@ -226,6 +227,7 @@ public class FlowerController : MonoBehaviour
             //dnaChain.RemoveRange(1, dnaChain.Count - 1);
             //PlantName = dnaChain[0];
             //PlantCrossedName = dnaChain[0];
+            GameManager.instance.RemoveFlowerSpecies(PlantCrossedName);
             dnaChain.RemoveAt(dnaChain.Count - 1);
             PlantCrossedName = "";
             foreach(System.String string_ in dnaChain)
@@ -234,6 +236,7 @@ public class FlowerController : MonoBehaviour
             }
 
             Debug.Log("Plant REVERTED " + PlantCrossedName);
+            
             ResetPlantLife();
             DowngradePlant();
         }

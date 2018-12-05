@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class FaderController : MonoBehaviour {
 
     public float speed = 1;
-    public Image fader;
 
+    Image fader;
     bool fadeIn = false;
     bool fadeOut = false;
 

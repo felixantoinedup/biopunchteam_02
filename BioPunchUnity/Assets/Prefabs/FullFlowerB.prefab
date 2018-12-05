@@ -281,7 +281,7 @@ MonoBehaviour:
   CrossPollenPrefabs:
   - {fileID: 1290420221383372, guid: 0784ca6ec91e0e2408eb67f22ad9bd5d, type: 2}
   - {fileID: 1668798571412160, guid: ead7255ddf428a04c8110e8d59ec292d, type: 2}
-  - {fileID: 1668798571412160, guid: ead7255ddf428a04c8110e8d59ec292d, type: 2}
+  - {fileID: 1293723010117280, guid: 7d75162837a62024aa9de4762eb73cd1, type: 2}
   MaterialToUpdateForCrossPollen: {fileID: 0}
   flowerSection: 1
   nbrShakeForPollen: 5
@@ -306,7 +306,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 2
+  m_Radius: 1
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
