@@ -127,12 +127,12 @@ public class BeeMovementController : MonoBehaviour {
         float dotValue = Vector2.Dot(current2D, previous2D);
         Debug.Log(dotValue);
 
-        if (currentDirection.sqrMagnitude == 0)
-            return false;
+        //if (currentDirection.sqrMagnitude == 0)
+        //    return false;
 
         previousDirection = currentDirection;
 
-        if (dotValue <= bestValueInTheWorld)
+        if (currentDirection.sqrMagnitude >= 0.001f && dotValue <= bestValueInTheWorld)
         {
             beeController.IncreaseShakes();
             twerkNextTimeStamp = Time.time + twerkDelay;

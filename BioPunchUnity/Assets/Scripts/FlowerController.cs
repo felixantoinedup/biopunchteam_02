@@ -37,7 +37,6 @@ public class FlowerController : MonoBehaviour
         dnaChain.Add(PlantName);
         PlantCrossedName = PlantName;
         plantUniqueId = System.Guid.NewGuid();
-        Debug.Log("PlantId:" + plantUniqueId.ToString());
         //rend = GetComponentInChildren<Renderer>();
         //rend.material = CrossPollenMaterials[0];
         //filter = GetComponentInChildren<MeshFilter>();
@@ -262,6 +261,5 @@ public class FlowerController : MonoBehaviour
     void GivePoints()
     {
         GameManager.instance.AddScore(DnaChainLength());
-        Debug.Log("Points Given!!!!!!!: " + DnaChainLength());
     }
 }

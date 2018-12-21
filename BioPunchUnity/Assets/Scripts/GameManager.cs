@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
     public float delayPoints = 3f;
     public float[] SectionsZoomValues;
     public float[] NextSectionScoreValues;
+    public float timeLastSectionMusic = 30f;
     public UIManager uiManager;
 
     public int currentSection = 0;
@@ -23,6 +24,8 @@ public class GameManager : MonoBehaviour {
     private List<int> listNbrEachTypes;
 
     CameraController cameraController;
+
+    bool lastMusic = true;
 
     void Awake()
     {
@@ -58,9 +61,16 @@ public class GameManager : MonoBehaviour {
         currentTimer -= Time.deltaTime;
 
         if (currentTimer <= 0)
+        {
             EndGame();
+        }
+        else if(lastMusic && currentTimer <= timeLastSectionMusic)
+        {
+            lastMusic = false;
+            AkSoundEngine.PostEvent("MUS_Layer3", gameObject);
+        }
 
-        if(Time.time >= pointsNextTimeStamp)
+        if (Time.time >= pointsNextTimeStamp)
         {
             pointsNextTimeStamp = pointsNextTimeStamp + delayPoints;
         }
